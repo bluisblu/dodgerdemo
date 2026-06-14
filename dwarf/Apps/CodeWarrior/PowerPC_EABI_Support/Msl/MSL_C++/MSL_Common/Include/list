@@ -1,0 +1,43 @@
+/*
+    Compile unit: C:\Apps\CodeWarrior\PowerPC_EABI_Support\Msl\MSL_C++\MSL_Common\Include\list
+    Producer: MW EABI PPC C-Compiler
+    Language: C++
+    Code range: 0x80008DA0 -> 0x80008F8C
+*/
+// Range: 0x80008DA0 -> 0x80008DA8
+// this: r3
+iterator::iterator(struct node * node /* r1+0x4 */) {}
+
+// Range: 0x80008DA8 -> 0x80008E20
+// this: r29
+void list::clear() {
+    // Local variables
+    struct node * t; // r3
+    struct node_base & tail; // r3
+}
+
+// Range: 0x80008E20 -> 0x80008E90
+// this: r30
+class iterator list::erase(class iterator & position /* r1+0x10 */) {
+    // Local variables
+    struct node * oldnode; // r5
+    struct node * result; // r1+0x8
+}
+
+// Range: 0x80008E90 -> 0x80008F5C
+// this: r31
+class iterator list::insert(class iterator & position /* r27 */, void * x /* r28 */) {
+    // References
+    // -> struct _FILE __files[];
+}
+
+// Range: 0x80008F5C -> 0x80008F8C
+// this: r3
+list::list() {
+    // Local variables
+    struct node_base & tail; // r5
+}
+
+
+
+

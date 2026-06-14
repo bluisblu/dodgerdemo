@@ -1,0 +1,1499 @@
+Sections:
+	.init       type:code align:4
+	extab       type:rodata align:4
+	extabindex  type:rodata align:4
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:4
+	.rodata     type:rodata align:8
+	.data       type:data align:32
+	.bss        type:bss align:32
+	.sdata      type:data align:8
+	.sbss       type:bss align:8
+	.sdata2     type:data align:8
+
+aramobj.cpp:
+	.init       start:0x80003100 end:0x80003100
+	extab       start:0x80005480 end:0x80005480
+	extabindex  start:0x800056C0 end:0x800056C0
+	.text       start:0x80005840 end:0x80005840
+	.ctors      start:0x800F8D00 end:0x800F8D00
+	.dtors      start:0x800F8DA0 end:0x800F8DA0
+	.rodata     start:0x800F8DC0 end:0x800F8DC0
+	.data       start:0x800FB340 end:0x800FB380
+	.bss        start:0x80116AE0 end:0x80116AE0
+	.sdata      start:0x80137640 end:0x80137640
+	.sbss       start:0x8013AE80 end:0x8013AE80
+	.sdata2     start:0x8013B4C0 end:0x8013B4C0
+
+game.cpp:
+	.text       start:0x80008D44 end:0x8000A414
+	.data       start:0x800FB380 end:0x800FBBB4
+	.bss        start:0x801176F0 end:0x80117700
+	.sdata      start:0x80137648 end:0x801377E0
+	.sdata2     start:0x8013B4C0 end:0x8013B558
+
+GameSimGroup.cpp:
+	.data       start:0x800FBE28 end:0x800FC078
+	.sdata      start:0x801377E0 end:0x8013781C
+	.sdata2     start:0x8013B558 end:0x8013B5A0
+
+GameSimNodeArt.cpp:
+	.text       start:0x8000A414 end:0x8000BFE4
+	.data       start:0x800FC078 end:0x800FC170
+	.bss        start:0x80117700 end:0x80117718
+	.sdata      start:0x8013781C end:0x80137860
+	.sdata2     start:0x8013B5A0 end:0x8013B5C0
+
+FlexDrawable.cpp:
+	.data       start:0x800FC170 end:0x800FC288
+	.sdata      start:0x80137860 end:0x80137890
+
+PhysicsDrawable.cpp:
+	.data       start:0x800FC288 end:0x800FC6B0
+	.sdata      start:0x80137890 end:0x80137950
+	.sdata2     start:0x8013B5C0 end:0x8013B5C8
+
+guPrimGroupShadow.cpp:
+	.text       start:0x8000BFE4 end:0x8000D3F4
+	.data       start:0x800FC6B0 end:0x800FC790
+	.bss        start:0x80117718 end:0x80117840
+	.sdata      start:0x80137950 end:0x80137980
+	.sbss       start:0x8013AE90 end:0x8013AEA8
+	.sdata2     start:0x8013B5C8 end:0x8013B5E8
+
+soundsample.cpp:
+	.data       start:0x800FC790 end:0x800FC7B8
+	.sdata2     start:0x8013B5E8 end:0x8013B618
+
+viewercamera.cpp:
+	.data       start:0x800FC7B8 end:0x800FC8A8
+	.sdata      start:0x80137980 end:0x801379C0
+	.sdata2     start:0x8013B618 end:0x8013B640
+
+GameCube.cpp:
+	.text       start:0x8000D3F4 end:0x8000D874
+	.data       start:0x800FC8A8 end:0x800FC8B8
+	.bss        start:0x80117840 end:0x80117868
+	.sbss       start:0x8013AEA8 end:0x8013AEB0
+	.sdata2     start:0x8013B640 end:0x8013B668
+
+PPCArch.c:
+
+OS.c:
+	.text       start:0x8000D874 end:0x8000E314
+	.data       start:0x800FC8B8 end:0x800FCA78
+	.sbss       start:0x8013AEB0 end:0x8013AEC0
+
+OSAlarm.c:
+	.text       start:0x8000E314 end:0x8000E360
+	.sbss       start:0x8013AEC0 end:0x8013AEC8
+
+OSAlloc.c:
+	.text       start:0x8000E360 end:0x8000EC14
+	.sbss       start:0x8013AEC8 end:0x8013AED8
+
+OSArena.c:
+	.sdata      start:0x801379C0 end:0x801379C8
+	.sbss       start:0x8013AED8 end:0x8013AEE0
+
+OSAudioSystem.c:
+	.data       start:0x800FCA78 end:0x800FCAF8
+
+OSCache.c:
+	.data       start:0x800FCAF8 end:0x800FCD28
+
+OSContext.c:
+	.text       start:0x8000EC14 end:0x8000F7B8
+	.data       start:0x800FCD28 end:0x800FCF00
+
+OSError.c:
+	.data       start:0x800FCF00 end:0x800FD138
+	.bss        start:0x80117868 end:0x801178A8
+	.sdata      start:0x801379C8 end:0x801379D8
+
+OSExi.c:
+	.text       start:0x8000F7B8 end:0x80011018
+	.bss        start:0x801178A8 end:0x80117960
+
+OSInterrupt.c:
+	.text       start:0x80011018 end:0x800113A0
+	.data       start:0x800FD138 end:0x800FD1D0
+	.sbss       start:0x8013AEE0 end:0x8013AEE8
+
+OSLink.c:
+
+OSMutex.c:
+
+OSReset.c:
+	.sbss       start:0x8013AEE8 end:0x8013AEF0
+
+OSResetSW.c:
+	.sbss       start:0x8013AEF0 end:0x8013AEF8
+
+OSRtc.c:
+	.text       start:0x800113A0 end:0x80011A5C
+	.bss        start:0x80117960 end:0x801179B8
+
+OSSerial.c:
+	.text       start:0x80011A5C end:0x800123AC
+	.data       start:0x800FD1D0 end:0x800FD1E8
+	.bss        start:0x801179B8 end:0x80117AD8
+
+OSSync.c:
+	.text       start:0x800123AC end:0x800125F4
+
+OSThread.c:
+	.text       start:0x800125F4 end:0x800135F4
+	.bss        start:0x80117AD8 end:0x801184C0
+	.sbss       start:0x8013AEF8 end:0x8013AF08
+
+OSTime.c:
+
+OSUartExi.c:
+	.sbss       start:0x8013AF08 end:0x8013AF10
+
+__start.c:
+	.init       start:0x800031F0 end:0x80005480
+
+__ppc_eabi_init.cpp:
+	.text       start:0x800135F4 end:0x800144B4
+
+AX.c:
+
+AXAlloc.c:
+	.bss        start:0x801184C0 end:0x801185C0
+	.sbss       start:0x8013AF10 end:0x8013AF18
+
+AXAux.c:
+	.bss        start:0x801185C0 end:0x8011B2C0
+	.sbss       start:0x8013AF18 end:0x8013AF48
+
+AXCL.c:
+	.bss        start:0x8011B2C0 end:0x8011B9C0
+	.sbss       start:0x8013AF48 end:0x8013AF58
+
+AXOut.c:
+	.text       start:0x800144B4 end:0x800164B0
+	.bss        start:0x8011B9C0 end:0x801201E0
+	.sbss       start:0x8013AF58 end:0x8013AF78
+
+AXSPB.c:
+	.bss        start:0x801201E0 end:0x80120220
+	.sbss       start:0x8013AF78 end:0x8013AFA0
+
+AXVPB.c:
+	.data       start:0x800FD1E8 end:0x800FEC60
+	.bss        start:0x80120220 end:0x80130020
+	.sbss       start:0x8013AFA0 end:0x8013AFB0
+
+AXProf.c:
+	.sbss       start:0x8013AFB0 end:0x8013AFC8
+
+DSPCode.c:
+
+db.c:
+	.data       start:0x800FEC60 end:0x800FEC78
+
+mtx44.c:
+	.sdata2     start:0x8013B668 end:0x8013B678
+
+dvdlow.c:
+	.text       start:0x800164B0 end:0x8001726C
+	.bss        start:0x80130020 end:0x801300E0
+	.sdata      start:0x801379D8 end:0x801379E0
+	.sbss       start:0x8013AFC8 end:0x8013B000
+
+dvdfs.c:
+	.text       start:0x8001726C end:0x800176C8
+	.data       start:0x800FEC78 end:0x800FEDA8
+	.sdata      start:0x801379E0 end:0x801379E8
+	.sbss       start:0x8013B000 end:0x8013B020
+
+dvd.c:
+	.text       start:0x800176C8 end:0x80019974
+	.data       start:0x800FEDA8 end:0x800FEE88
+	.bss        start:0x801300E0 end:0x801301B8
+	.sdata      start:0x801379E8 end:0x801379F0
+	.sbss       start:0x8013B020 end:0x8013B068
+
+dvdqueue.c:
+	.bss        start:0x801301B8 end:0x801301D8
+
+dvderror.c:
+	.data       start:0x800FEE88 end:0x800FEEC8
+
+fstload.c:
+	.text       start:0x80019974 end:0x8001B134
+	.data       start:0x800FEEC8 end:0x800FEF38
+	.bss        start:0x801301D8 end:0x80130248
+	.sdata      start:0x801379F0 end:0x80137A00
+	.sbss       start:0x8013B068 end:0x8013B078
+
+vi.c:
+	.text       start:0x8001B134 end:0x8001B1FC
+	.data       start:0x800FEF38 end:0x800FF0A0
+	.bss        start:0x80130248 end:0x80130390
+	.sbss       start:0x8013B078 end:0x8013B0B8
+
+Padclamp.c:
+	.text       start:0x8001B1FC end:0x8001CE60
+	.sdata      start:0x80137A00 end:0x80137A08
+
+Pad.c:
+	.text       start:0x8001CE60 end:0x8001DA44
+	.data       start:0x800FF0A0 end:0x800FF108
+	.bss        start:0x80130390 end:0x801303D0
+	.sdata      start:0x80137A08 end:0x80137A28
+	.sbss       start:0x8013B0B8 end:0x8013B0E0
+
+ai.c:
+	.text       start:0x8001DA44 end:0x8001DE50
+	.sbss       start:0x8013B0E0 end:0x8013B120
+
+ar.c:
+	.text       start:0x8001DE50 end:0x8001FC40
+	.sbss       start:0x8013B120 end:0x8013B138
+	.sdata2     start:0x8013B678 end:0x8013B688
+
+arq.c:
+	.sbss       start:0x8013B138 end:0x8013B160
+
+dsp.c:
+	.data       start:0x800FF108 end:0x800FF140
+	.sbss       start:0x8013B160 end:0x8013B190
+
+dsp_debug.c:
+
+dsp_task.c:
+	.data       start:0x800FF140 end:0x800FF280
+
+GXInit.c:
+	.text       start:0x8001FC40 end:0x800211A0
+	.bss        start:0x801303D0 end:0x80132328
+	.sdata2     start:0x8013B688 end:0x8013B6A8
+
+GXFifo.c:
+	.text       start:0x800211A0 end:0x800214F0
+	.sbss       start:0x8013B190 end:0x8013B1B0
+
+GXAttr.c:
+	.text       start:0x800214F0 end:0x80022630
+	.data       start:0x800FF280 end:0x800FF458
+	.sdata      start:0x80137A28 end:0x80137A70
+
+GXMisc.c:
+	.text       start:0x80022630 end:0x8002488C
+	.sbss       start:0x8013B1B0 end:0x8013B1DC
+
+GXGeometry.c:
+
+GXFrameBuf.c:
+	.sdata2     start:0x8013B6A8 end:0x8013B6B8
+
+GXLight.c:
+	.sdata2     start:0x8013B6B8 end:0x8013B6D8
+
+GXTexture.c:
+	.text       start:0x8002488C end:0x80026040
+	.data       start:0x800FF458 end:0x800FF680
+	.sdata      start:0x80137A70 end:0x80137A7C
+	.sdata2     start:0x8013B6D8 end:0x8013B700
+
+GXBump.c:
+
+GXTev.c:
+	.data       start:0x800FF680 end:0x800FF6A8
+
+GXPixel.c:
+	.data       start:0x800FF6A8 end:0x800FF724
+	.sdata2     start:0x8013B700 end:0x8013B730
+
+GXStubs.c:
+
+GXDisplayList.c:
+
+GXTransform.c:
+	.text       start:0x80026040 end:0x800275C8
+	.sdata2     start:0x8013B730 end:0x8013B740
+
+GXPerf.c:
+	.data       start:0x800FF724 end:0x800FF8A4
+
+mainloop.c:
+
+nubevent.c:
+
+nubinit.c:
+	.rodata     start:0x800F8DC0 end:0x800F8DE0
+
+msg.c:
+
+msgbuf.c:
+	.text       start:0x800275C8 end:0x80028074
+
+serpoll.c:
+	.bss        start:0x80132328 end:0x80132348
+
+usr_put.c:
+
+dispatch.c:
+
+msghndlr.c:
+	.text       start:0x80028074 end:0x800299CC
+
+support.c:
+
+mutex_TRK.c:
+
+notify.c:
+
+flush_cache.c:
+
+mem_TRK.c:
+
+__exception.s:
+
+targimpl.c:
+	.text       start:0x800299CC end:0x8002C220
+	.rodata     start:0x800F8DF0 end:0x800F8E30
+	.data       start:0x800FF8A4 end:0x800FF8C8
+	.bss        start:0x80132348 end:0x801328C8
+
+dolphin_trk.c:
+	.data       start:0x800FF8C8 end:0x800FF928
+
+mpc_7xx_603e.c:
+
+main_TRK.c:
+	.bss        start:0x801328C8 end:0x801328D0
+
+dolphin_trk_glue.c:
+
+targcont.c:
+
+__mem.c:
+
+__va_arg.c:
+
+global_destructor_chain.c:
+	.dtors      start:0x800F8DA8 end:0x800F8DC0
+
+New.cp:
+	extab       start:0x80005480 end:0x80005504
+	extabindex  start:0x800056C0 end:0x800056F0
+
+NewMore.cp:
+	extab       start:0x80005504 end:0x8000555C
+	extabindex  start:0x800056F0 end:0x80005714
+	.rodata     start:0x800F8E30 end:0x800F8EA0
+	.data       start:0x800FF928 end:0x800FF958
+	.sdata      start:0x80137A7C end:0x80137A90
+
+NMWException.cp:
+	extab       start:0x8000555C end:0x800055C4
+	extabindex  start:0x80005714 end:0x80005780
+	.text       start:0x8002C220 end:0x8002C660
+	.sdata      start:0x80137A90 end:0x80137A98
+
+ptmf.c:
+
+MWRTTI.cp:
+	extab       start:0x800055C4 end:0x80005624
+	extabindex  start:0x80005780 end:0x800057B0
+	.rodata     start:0x800F8EA0 end:0x800F8F40
+	.data       start:0x800FF958 end:0x800FF9A0
+	.sdata      start:0x80137A98 end:0x80137AB8
+	.sdata2     start:0x8013B740 end:0x8013B748
+
+ExceptionPPC.cp:
+	extab       start:0x80005624 end:0x800056C0
+	extabindex  start:0x800057B0 end:0x80005840
+	.text       start:0x8002C660 end:0x8002E118
+	.rodata     start:0x800F8F40 end:0x800F8FD8
+	.data       start:0x800FF9A0 end:0x800FFA98
+	.bss        start:0x801328D0 end:0x801328E0
+	.sdata      start:0x80137AB8 end:0x80137AC8
+
+setjmp.c:
+
+runtime.c:
+	.rodata     start:0x800F8FD8 end:0x800F8FF0
+
+__init_cpp_exceptions.cpp:
+	.text       start:0x8002E118 end:0x8002E904
+	.ctors      start:0x800F8D00 end:0x800F8DA0
+	.dtors      start:0x800F8DA0 end:0x800F8DA8
+	.sdata      start:0x80137AC8 end:0x80137AD0
+
+abort_exit.c:
+	.bss        start:0x801328E0 end:0x80132AE0
+	.sbss       start:0x8013B1DC end:0x8013B1F0
+
+alloc.c:
+	.text       start:0x8002E904 end:0x800308D8
+	.rodata     start:0x800F8FF0 end:0x800F9000
+	.bss        start:0x80132AE0 end:0x80132B10
+	.sbss       start:0x8013B1F0 end:0x8013B200
+
+ansi_files.c:
+	.data       start:0x800FFA98 end:0x800FFBA0
+
+ansi_fp.c:
+	.rodata     start:0x800F9000 end:0x800F9388
+	.sdata      start:0x80137AD0 end:0x80137AD8
+	.sdata2     start:0x8013B748 end:0x8013B778
+
+arith.c:
+
+buffer_io.c:
+
+char_io.c:
+
+critical_regions.ppc_eabi.c:
+
+ctype.c:
+
+direct_io.c:
+
+errno.c:
+
+file_io.c:
+
+locale.c:
+	.rodata     start:0x800F9388 end:0x800F9390
+
+mbstring.c:
+
+mem.c:
+
+mem_funcs.c:
+
+misc_io.c:
+
+printf.c:
+	.text       start:0x800308D8 end:0x80032304
+	.rodata     start:0x800F9390 end:0x800F93A0
+	.data       start:0x800FFBA0 end:0x800FFDC0
+	.sdata      start:0x80137AD8 end:0x80137AE0
+	.sdata2     start:0x8013B778 end:0x8013B780
+
+qsort.c:
+
+scanf.c:
+	.text       start:0x80032304 end:0x80035A48
+	.rodata     start:0x800F93A0 end:0x800F93C8
+	.data       start:0x800FFDC0 end:0x800FFE90
+
+signal.c:
+	.bss        start:0x80132B10 end:0x80132B28
+
+string.c:
+	.sdata      start:0x80137AE0 end:0x80137AF0
+
+strtold.c:
+	.rodata     start:0x800F93C8 end:0x800F93F8
+	.sdata2     start:0x8013B780 end:0x8013B790
+
+strtoul.c:
+	.data       start:0x800FFE90 end:0x800FFF50
+
+uart_console_io.c:
+	.sbss       start:0x8013B200 end:0x8013B208
+
+float.c:
+
+wchar_io.c:
+
+e_asin.c:
+
+e_pow.c:
+	.rodata     start:0x800F93F8 end:0x800F9428
+	.sdata2     start:0x8013B790 end:0x8013B8A0
+
+fminmaxdim.c:
+
+s_copysign.c:
+
+s_frexp.c:
+	.sdata2     start:0x8013B8A0 end:0x8013B8A8
+
+s_ldexp.c:
+	.sdata2     start:0x8013B8A8 end:0x8013B8D0
+
+w_pow.c:
+
+hyperbolicsf.c:
+
+inverse_trig.c:
+	.rodata     start:0x800F9428 end:0x800F94E0
+	.sdata2     start:0x8013B8D0 end:0x8013B8F0
+
+roundingf.c:
+	.sdata2     start:0x8013B8F0 end:0x8013B8F8
+
+trigf.c:
+	.text       start:0x80035A48 end:0x800367F4
+	.rodata     start:0x800F94E0 end:0x800F94F0
+	.data       start:0x800FFF50 end:0x801001B0
+	.sdata2     start:0x8013B8F8 end:0x8013B910
+
+math_inlines.c:
+	.sdata2     start:0x8013B910 end:0x8013B928
+
+common_float_tables.c:
+
+exponentialsf.c:
+	.data       start:0x801001B0 end:0x801003F8
+	.sdata      start:0x80137AF0 end:0x80137AF8
+	.sdata2     start:0x8013B928 end:0x8013B940
+
+AmcExi.c:
+	.text       start:0x800367F4 end:0x800368C4
+	.bss        start:0x80132B28 end:0x80132B40
+	.sdata      start:0x80137AF8 end:0x80137B00
+
+AmcExi2Comm.c:
+	.text       start:0x800368C4 end:0x80039140
+	.data       start:0x801003F8 end:0x80100448
+	.sdata      start:0x80137B00 end:0x80137B08
+	.sbss       start:0x8013B208 end:0x8013B21C
+
+amcnotstub.c:
+
+odemustubs.c:
+
+error.cpp:
+	.bss        start:0x80132B40 end:0x80132F50
+	.sdata      start:0x80137B08 end:0x80137B18
+	.sbss       start:0x8013B21C end:0x8013B228
+
+plat_filemap.cpp:
+	.data       start:0x80100448 end:0x80100518
+	.sdata      start:0x80137B18 end:0x80137B40
+
+platform.cpp:
+	.sbss       start:0x8013B228 end:0x8013B230
+
+billboardQuad.cpp:
+	.data       start:0x80100518 end:0x801006D8
+	.sdata      start:0x80137B40 end:0x80137BA0
+	.sdata2     start:0x8013B940 end:0x8013B950
+
+bmp.cpp:
+	.text       start:0x80039140 end:0x8003BAFC
+	.data       start:0x801006D8 end:0x801007F8
+	.sdata      start:0x80137BA0 end:0x80137BC8
+
+camera.cpp:
+	.data       start:0x801007F8 end:0x80100888
+	.sdata      start:0x80137BC8 end:0x80137BF0
+	.sdata2     start:0x8013B950 end:0x8013B968
+
+cameraloader.cpp:
+	.data       start:0x80100888 end:0x80100958
+	.sdata      start:0x80137BF0 end:0x80137C20
+
+chunkfile.cpp:
+
+context.cpp:
+	.data       start:0x80100958 end:0x801009C8
+	.sdata      start:0x80137C20 end:0x80137C28
+	.sdata2     start:0x8013B968 end:0x8013B970
+
+directionallight.cpp:
+	.data       start:0x801009C8 end:0x80100A40
+	.sdata      start:0x80137C28 end:0x80137C58
+	.sdata2     start:0x8013B970 end:0x8013B978
+
+drawable.cpp:
+	.text       start:0x8003BAFC end:0x8003C598
+	.data       start:0x80100A40 end:0x80100B10
+	.bss        start:0x80132F50 end:0x80132F78
+	.sdata      start:0x80137C58 end:0x80137C80
+	.sbss       start:0x8013B230 end:0x8013B238
+	.sdata2     start:0x8013B978 end:0x8013B980
+
+displaylist.cpp:
+	.sdata2     start:0x8013B980 end:0x8013B988
+
+dxtn.cpp:
+	.text       start:0x8003C598 end:0x80041068
+	.data       start:0x80100B10 end:0x80100BD8
+	.sdata      start:0x80137C80 end:0x80137CA8
+
+entity.cpp:
+	.data       start:0x80100BD8 end:0x80100C00
+	.sdata      start:0x80137CA8 end:0x80137CC0
+
+entitytable.cpp:
+	.data       start:0x80100C00 end:0x80100C48
+	.sdata      start:0x80137CC0 end:0x80137CE0
+
+file.cpp:
+	.data       start:0x80100C48 end:0x80100D00
+	.sdata      start:0x80137CE0 end:0x80137D00
+
+font.cpp:
+	.data       start:0x80100D00 end:0x80100D80
+	.sdata      start:0x80137D00 end:0x80137D28
+	.sdata2     start:0x8013B988 end:0x8013B990
+
+fontutility.cpp:
+	.data       start:0x80100D80 end:0x80100DA8
+	.sdata      start:0x80137D28 end:0x80137D30
+
+fontglyph.cpp:
+	.data       start:0x80100DA8 end:0x80100E80
+	.sdata      start:0x80137D30 end:0x80137D50
+	.sdata2     start:0x8013B990 end:0x8013B998
+
+gameattr.cpp:
+	.data       start:0x80100E80 end:0x80100F80
+	.sdata      start:0x80137D50 end:0x80137D88
+
+geometry.cpp:
+	.data       start:0x80100F80 end:0x80101140
+	.sdata      start:0x80137D88 end:0x80137DD0
+	.sdata2     start:0x8013B998 end:0x8013B9A0
+
+image.cpp:
+	.text       start:0x80041068 end:0x80041BB4
+	.data       start:0x80101140 end:0x80101310
+	.sdata      start:0x80137DD0 end:0x80137E28
+
+imageconverter.cpp:
+	.text       start:0x80041BB4 end:0x80046860
+	.data       start:0x80101310 end:0x801014B0
+	.sdata      start:0x80137E28 end:0x80137E68
+
+imagefactory.cpp:
+	.data       start:0x801014B0 end:0x80101718
+	.sdata      start:0x80137E68 end:0x80137E98
+
+imagefont.cpp:
+	.data       start:0x80101718 end:0x801018A8
+	.sdata      start:0x80137E98 end:0x80137ED0
+
+inventory.cpp:
+	.rodata     start:0x800F94F0 end:0x800F95F0
+	.data       start:0x801018A8 end:0x801019B0
+	.sdata      start:0x80137ED0 end:0x80137F00
+
+ipu.cpp:
+	.data       start:0x801019B0 end:0x80101A78
+	.sdata      start:0x80137F00 end:0x80137F28
+	.sdata2     start:0x8013B9A0 end:0x8013B9A8
+
+light.cpp:
+	.data       start:0x80101A78 end:0x80101AE8
+	.sdata      start:0x80137F28 end:0x80137F58
+
+lightloader.cpp:
+	.data       start:0x80101AE8 end:0x80101CC8
+	.sdata      start:0x80137F58 end:0x80137FB8
+	.sdata2     start:0x8013B9A8 end:0x8013B9B0
+
+loaders.cpp:
+	.text       start:0x80046860 end:0x80048C70
+	.bss        start:0x80132F78 end:0x80132FA0
+	.sbss       start:0x8013B238 end:0x8013B240
+	.sdata2     start:0x8013B9B0 end:0x8013B9B8
+
+loadmanager.cpp:
+	.data       start:0x80101CC8 end:0x80101ED8
+	.sdata      start:0x80137FB8 end:0x80138030
+
+locator.cpp:
+	.data       start:0x80101ED8 end:0x80101FD8
+	.sdata      start:0x80138030 end:0x80138068
+
+matrixstack.cpp:
+	.text       start:0x80048C70 end:0x80048C78
+	.data       start:0x80101FD8 end:0x80102118
+	.bss        start:0x80132FA0 end:0x80133038
+	.sdata      start:0x80138068 end:0x80138080
+
+png.cpp:
+	.text       start:0x80048C78 end:0x80050E00
+	.data       start:0x80102118 end:0x801021E0
+	.sdata      start:0x80138080 end:0x801380B0
+
+pointcamera.cpp:
+	.data       start:0x801021E0 end:0x80102298
+	.sdata      start:0x801380B0 end:0x801380E0
+	.sdata2     start:0x8013B9B8 end:0x8013B9C0
+
+pointlight.cpp:
+	.data       start:0x80102298 end:0x80102308
+	.sdata      start:0x801380E0 end:0x80138110
+	.sdata2     start:0x8013B9C0 end:0x8013B9D0
+
+primgroup.cpp:
+	.data       start:0x80102308 end:0x80102620
+	.sdata      start:0x80138110 end:0x80138170
+	.sdata2     start:0x8013B9D0 end:0x8013B9D8
+
+rawimage.cpp:
+	.data       start:0x80102620 end:0x80102730
+	.sdata      start:0x80138170 end:0x80138198
+
+refcounted.cpp:
+	.data       start:0x80102730 end:0x80102748
+	.sdata      start:0x80138198 end:0x801381A0
+
+shader.cpp:
+	.rodata     start:0x800F95F0 end:0x800F97F0
+	.data       start:0x80102748 end:0x80102968
+	.sdata      start:0x801381A0 end:0x80138210
+
+spotlight.cpp:
+	.data       start:0x80102968 end:0x801029D8
+	.sdata      start:0x80138210 end:0x80138240
+	.sdata2     start:0x8013B9D8 end:0x8013B9F0
+
+sprite.cpp:
+	.data       start:0x801029D8 end:0x80102B78
+	.bss        start:0x80133038 end:0x80133058
+	.sdata      start:0x80138240 end:0x80138290
+	.sbss       start:0x8013B240 end:0x8013B248
+	.sdata2     start:0x8013B9F0 end:0x8013BA10
+
+targa.cpp:
+	.text       start:0x80050E00 end:0x80053D08
+	.data       start:0x80102B78 end:0x80102CA0
+	.sdata      start:0x80138290 end:0x801382B8
+
+texture.cpp:
+	.data       start:0x80102CA0 end:0x80102DA0
+	.sdata      start:0x801382B8 end:0x801382F0
+
+texturefont.cpp:
+	.data       start:0x80102DA0 end:0x80102FD0
+	.sdata      start:0x801382F0 end:0x80138350
+	.sdata2     start:0x8013BA10 end:0x8013BA38
+
+typeface.cpp:
+	.text       start:0x80053D08 end:0x8005495C
+	.data       start:0x80102FD0 end:0x80103188
+	.sdata      start:0x80138350 end:0x801383C8
+	.sdata2     start:0x8013BA38 end:0x8013BA48
+
+unicode.cpp:
+
+utility.cpp:
+	.text       start:0x8005495C end:0x80057CE8
+
+vectorcamera.cpp:
+	.data       start:0x80103188 end:0x80103240
+	.sdata      start:0x801383C8 end:0x801383F8
+	.sdata2     start:0x8013BA48 end:0x8013BA50
+
+vertexlist.cpp:
+	.data       start:0x80103240 end:0x80103290
+	.sdata      start:0x801383F8 end:0x80138410
+
+view.cpp:
+	.data       start:0x80103290 end:0x801032B8
+	.sdata      start:0x80138410 end:0x80138428
+	.sdata2     start:0x8013BA50 end:0x8013BA60
+
+animate.cpp:
+	.text       start:0x80057CE8 end:0x80069420
+	.data       start:0x801032B8 end:0x80103C38
+	.bss        start:0x80133058 end:0x80133080
+	.sdata      start:0x80138428 end:0x80138578
+	.sbss       start:0x8013B248 end:0x8013B250
+	.sdata2     start:0x8013BA60 end:0x8013BA80
+
+cameraanimation.cpp:
+	.data       start:0x80103C38 end:0x80103ED0
+	.sdata      start:0x80138578 end:0x801385E0
+	.sdata2     start:0x8013BA80 end:0x8013BA90
+
+channel.cpp:
+	.data       start:0x80103ED0 end:0x80104350
+	.sdata      start:0x801385E0 end:0x80138670
+	.sdata2     start:0x8013BA90 end:0x8013BAA8
+
+compoundmesh.cpp:
+	.data       start:0x80104350 end:0x80104600
+	.sdata      start:0x80138670 end:0x801386D8
+	.sdata2     start:0x8013BAA8 end:0x8013BAB8
+
+compositedrawable.cpp:
+	.data       start:0x80104600 end:0x801049F0
+	.sdata      start:0x801386D8 end:0x80138758
+	.sdata2     start:0x8013BAB8 end:0x8013BAC8
+
+drawablepose.cpp:
+	.data       start:0x801049F0 end:0x80104AA8
+	.sdata      start:0x80138758 end:0x80138788
+
+event.cpp:
+	.data       start:0x80104AA8 end:0x80104B60
+	.sdata      start:0x80138788 end:0x801387B0
+
+eventanimation.cpp:
+	.data       start:0x80104B60 end:0x80104DB8
+	.sdata      start:0x801387B0 end:0x80138810
+	.sdata2     start:0x8013BAC8 end:0x8013BAE0
+
+expression.cpp:
+	.data       start:0x80104DB8 end:0x80105188
+	.sdata      start:0x80138810 end:0x801388A0
+	.sdata2     start:0x8013BAE0 end:0x8013BAE8
+
+expressionanimation.cpp:
+	.data       start:0x80105188 end:0x801054F8
+	.sdata      start:0x801388A0 end:0x80138928
+	.sdata2     start:0x8013BAE8 end:0x8013BB00
+
+lightanimation.cpp:
+	.data       start:0x801054F8 end:0x801057F8
+	.sdata      start:0x80138928 end:0x801389A8
+	.sdata2     start:0x8013BB00 end:0x8013BB20
+
+multicontroller.cpp:
+	.data       start:0x801057F8 end:0x80105A38
+	.sdata      start:0x801389A8 end:0x801389F8
+	.sbss       start:0x8013B250 end:0x8013B258
+	.sdata2     start:0x8013BB20 end:0x8013BB30
+
+polyskin.cpp:
+	.data       start:0x80105A38 end:0x80105C70
+	.sdata      start:0x801389F8 end:0x80138A50
+	.sdata2     start:0x8013BB30 end:0x8013BB38
+
+pose.cpp:
+	.data       start:0x80105C70 end:0x80105C98
+	.sdata      start:0x80138A50 end:0x80138A68
+
+poseanimation.cpp:
+	.data       start:0x80105C98 end:0x801060F0
+	.sdata      start:0x80138A68 end:0x80138AE0
+	.sdata2     start:0x8013BB38 end:0x8013BB58
+
+poseexpression.cpp:
+	.data       start:0x801060F0 end:0x80106298
+	.sdata      start:0x80138AE0 end:0x80138B38
+	.sdata2     start:0x8013BB58 end:0x8013BB60
+
+sequencer.cpp:
+	.text       start:0x80069420 end:0x8006F738
+	.data       start:0x80106298 end:0x80106E28
+	.sdata      start:0x80138B38 end:0x80138CB0
+	.sdata2     start:0x8013BB60 end:0x8013BB70
+
+skeleton.cpp:
+	.data       start:0x80106E28 end:0x80106F68
+	.sdata      start:0x80138CB0 end:0x80138CE8
+	.sdata2     start:0x8013BB70 end:0x8013BB78
+
+textureanimation.cpp:
+	.data       start:0x80106F68 end:0x80107238
+	.sdata      start:0x80138CE8 end:0x80138D50
+	.sdata2     start:0x8013BB78 end:0x8013BB80
+
+vertexoffsetanimation.cpp:
+	.data       start:0x80107238 end:0x80107388
+	.sdata      start:0x80138D50 end:0x80138D90
+	.sdata2     start:0x8013BB80 end:0x8013BB88
+
+vertexoffsetexpression.cpp:
+	.data       start:0x80107388 end:0x80107628
+	.sdata      start:0x80138D90 end:0x80138E08
+	.sdata2     start:0x8013BB88 end:0x8013BBA8
+
+visibilityanimation.cpp:
+	.data       start:0x80107628 end:0x801079C0
+	.sdata      start:0x80138E08 end:0x80138E88
+	.sdata2     start:0x8013BBA8 end:0x8013BBB8
+
+optic.cpp:
+	.data       start:0x801079C0 end:0x80107AB8
+	.sdata      start:0x80138E88 end:0x80138EC0
+	.sdata2     start:0x8013BBB8 end:0x8013BBD8
+
+opticcorona.cpp:
+	.data       start:0x80107AB8 end:0x80107BA8
+	.sdata      start:0x80138EC0 end:0x80138F08
+	.sdata2     start:0x8013BBD8 end:0x8013BBE8
+
+opticlensflare.cpp:
+	.data       start:0x80107BA8 end:0x80107CA0
+	.sdata      start:0x80138F08 end:0x80138F48
+	.sdata2     start:0x8013BBE8 end:0x8013BC00
+
+opticloader.cpp:
+	.data       start:0x80107CA0 end:0x80107EE8
+	.sdata      start:0x80138F48 end:0x80138F98
+	.sdata2     start:0x8013BC00 end:0x8013BC10
+
+effect.cpp:
+	.data       start:0x80107EE8 end:0x80108040
+	.sdata      start:0x80138F98 end:0x80138FC8
+	.sdata2     start:0x8013BC10 end:0x8013BC20
+
+particlearray.cpp:
+	.text       start:0x8006F738 end:0x80070AE4
+	.data       start:0x80108040 end:0x80108190
+	.bss        start:0x80133080 end:0x801330A8
+	.sdata      start:0x80138FC8 end:0x80139000
+	.sbss       start:0x8013B258 end:0x8013B260
+	.sdata2     start:0x8013BC20 end:0x8013BC28
+
+particlechannel.cpp:
+	.sdata2     start:0x8013BC28 end:0x8013BC38
+
+particlegenerator.cpp:
+	.text       start:0x80070AE4 end:0x800751BC
+	.data       start:0x80108190 end:0x801082D0
+	.bss        start:0x801330A8 end:0x801330D0
+	.sdata      start:0x80139000 end:0x80139038
+	.sbss       start:0x8013B260 end:0x8013B268
+	.sdata2     start:0x8013BC38 end:0x8013BC48
+
+particleloader.cpp:
+	.text       start:0x800751BC end:0x80076698
+	.data       start:0x801082D0 end:0x80108A08
+	.bss        start:0x801330D0 end:0x801330F8
+	.sdata      start:0x80139038 end:0x80139108
+	.sbss       start:0x8013B268 end:0x8013B270
+	.sdata2     start:0x8013BC48 end:0x8013BC60
+
+particlesystem.cpp:
+	.text       start:0x80076698 end:0x800769D4
+	.data       start:0x80108A08 end:0x80108B40
+	.bss        start:0x801330F8 end:0x80133120
+	.sdata      start:0x80139108 end:0x80139160
+	.sbss       start:0x8013B270 end:0x8013B278
+	.sdata2     start:0x8013BC60 end:0x8013BC70
+
+particletype.cpp:
+	.text       start:0x800769D4 end:0x80078B08
+	.bss        start:0x80133120 end:0x80133148
+	.sbss       start:0x8013B278 end:0x8013B280
+	.sdata2     start:0x8013BC70 end:0x8013BC80
+
+particleforce.cpp:
+	.text       start:0x80078B08 end:0x80079024
+	.data       start:0x80108B40 end:0x80108E90
+	.bss        start:0x80133148 end:0x80133170
+	.sdata      start:0x80139160 end:0x801391A8
+	.sbss       start:0x8013B280 end:0x8013B288
+	.sdata2     start:0x8013BC80 end:0x8013BCA8
+
+particleutility.cpp:
+	.text       start:0x80079024 end:0x8007DFDC
+	.bss        start:0x80133170 end:0x801331B0
+	.sbss       start:0x8013B288 end:0x8013B2A8
+	.sdata2     start:0x8013BCA8 end:0x8013BCC0
+
+particleemitter.cpp:
+	.text       start:0x8007DFDC end:0x8007FA40
+	.data       start:0x80108E90 end:0x80109198
+	.bss        start:0x801331B0 end:0x801331D8
+	.sdata      start:0x801391A8 end:0x80139200
+	.sbss       start:0x8013B2A8 end:0x8013B2B0
+	.sdata2     start:0x8013BCC0 end:0x8013BD00
+
+particlecollision.cpp:
+	.text       start:0x8007FA40 end:0x80080584
+	.data       start:0x80109198 end:0x80109290
+	.bss        start:0x801331D8 end:0x80133200
+	.sdata      start:0x80139200 end:0x80139230
+	.sbss       start:0x8013B2B0 end:0x8013B2D0
+	.sdata2     start:0x8013BD00 end:0x8013BD18
+
+nodeanimation.cpp:
+	.text       start:0x80080584 end:0x8008312C
+	.data       start:0x80109290 end:0x801097D0
+	.sdata      start:0x80139230 end:0x801392D0
+	.sdata2     start:0x8013BD18 end:0x8013BD28
+
+scenegraph.cpp:
+	.text       start:0x8008312C end:0x80083A8C
+	.data       start:0x801097D0 end:0x8010A058
+	.bss        start:0x80133200 end:0x80133280
+	.sdata      start:0x801392D0 end:0x80139420
+	.sdata2     start:0x8013BD28 end:0x8013BD30
+
+png.c:
+
+pngerror.c:
+	.text       start:0x80083A8C end:0x80085018
+	.rodata     start:0x800F97F0 end:0x800F9800
+	.data       start:0x8010A058 end:0x8010A080
+
+pngget.c:
+
+pngmem.c:
+	.data       start:0x8010A080 end:0x8010A0D0
+
+pngread.c:
+	.data       start:0x8010A0D0 end:0x8010A2A8
+	.sdata      start:0x80139420 end:0x80139428
+
+pngrio.c:
+	.text       start:0x80085018 end:0x80095734
+	.data       start:0x8010A2A8 end:0x8010A348
+
+pngrtran.c:
+	.data       start:0x8010A348 end:0x8010A570
+	.sdata2     start:0x8013BD30 end:0x8013BD80
+
+pngrutil.c:
+	.data       start:0x8010A570 end:0x8010AFA0
+	.sdata2     start:0x8013BD80 end:0x8013BDE0
+
+pngset.c:
+	.data       start:0x8010AFA0 end:0x8010AFE0
+	.sdata      start:0x80139428 end:0x80139430
+	.sdata2     start:0x8013BDE0 end:0x8013BE08
+
+pngtrans.c:
+	.data       start:0x8010AFE0 end:0x8010B2E0
+
+adler32.c:
+
+crc32.c:
+	.rodata     start:0x800F9800 end:0x800F9C00
+
+infblock.c:
+	.rodata     start:0x800F9C00 end:0x800F9C50
+	.data       start:0x8010B2E0 end:0x8010B380
+
+infcodes.c:
+	.data       start:0x8010B380 end:0x8010B3E0
+
+inffast.c:
+	.data       start:0x8010B3E0 end:0x8010B418
+
+inflate.c:
+	.data       start:0x8010B418 end:0x8010B4C0
+	.sdata      start:0x80139430 end:0x80139438
+
+inftrees.c:
+	.text       start:0x80095734 end:0x8009682C
+	.rodata     start:0x800F9C50 end:0x800F9E68
+	.data       start:0x8010B4C0 end:0x8010C6F8
+	.sdata      start:0x80139438 end:0x80139440
+
+infutil.c:
+
+zutil.c:
+
+ftbase.c:
+	.text       start:0x8009682C end:0x80099614
+	.rodata     start:0x800F9E68 end:0x800F9E90
+	.data       start:0x8010C6F8 end:0x8010C748
+
+ftinit.c:
+	.data       start:0x8010C748 end:0x8010C760
+
+ftraster.c:
+	.text       start:0x80099614 end:0x8009BC70
+	.rodata     start:0x800F9E90 end:0x800F9EE0
+	.data       start:0x8010C760 end:0x8010C788
+
+psnames.c:
+	.text       start:0x8009BC70 end:0x8009C108
+	.rodata     start:0x800F9EE0 end:0x800FA878
+	.data       start:0x8010C788 end:0x8010FA70
+	.sdata      start:0x80139440 end:0x80139F10
+
+sfnt.c:
+	.text       start:0x8009C108 end:0x8009F4F8
+	.rodata     start:0x800FA878 end:0x800FADC8
+	.data       start:0x8010FA70 end:0x8010FAA8
+	.sdata      start:0x80139F10 end:0x80139F18
+
+truetype.c:
+	.text       start:0x8009F4F8 end:0x800A8800
+	.rodata     start:0x800FADC8 end:0x800FB0B0
+	.data       start:0x8010FAA8 end:0x8010FD18
+	.sdata      start:0x80139F18 end:0x80139F28
+	.sdata2     start:0x8013BE08 end:0x8013BE10
+
+type1.c:
+	.text       start:0x800A8800 end:0x800B49C4
+	.rodata     start:0x800FB0B0 end:0x800FB318
+	.data       start:0x8010FD18 end:0x80110460
+	.sdata      start:0x80139F28 end:0x8013A008
+	.sdata2     start:0x8013BE10 end:0x8013BE28
+
+matrix.cpp:
+	.data       start:0x80110460 end:0x801104A0
+	.sdata2     start:0x8013BE28 end:0x8013BE40
+
+quaternion.cpp:
+	.sdata2     start:0x8013BE40 end:0x8013BE58
+
+random.cpp:
+	.sdata2     start:0x8013BE58 end:0x8013BE68
+
+trig.cpp:
+	.sdata2     start:0x8013BE68 end:0x8013BE88
+
+vector.cpp:
+	.sdata2     start:0x8013BE88 end:0x8013BE98
+
+gccon.cpp:
+	.text       start:0x800B49C4 end:0x800B4E00
+	.data       start:0x801104A0 end:0x80110A18
+	.bss        start:0x80133280 end:0x80133310
+	.sdata      start:0x8013A008 end:0x8013A048
+	.sdata2     start:0x8013BE98 end:0x8013BEF0
+
+gcdev.cpp:
+	.text       start:0x800B4E00 end:0x800B7160
+	.data       start:0x80110A18 end:0x80110B40
+	.bss        start:0x80133310 end:0x80133330
+	.sdata      start:0x8013A048 end:0x8013A078
+
+gcdisplay.cpp:
+	.data       start:0x80110B40 end:0x80110D00
+	.sdata      start:0x8013A078 end:0x8013A0A0
+	.sdata2     start:0x8013BEF0 end:0x8013BF08
+
+gcskin.cpp:
+	.text       start:0x800B7160 end:0x800B7880
+	.rodata     start:0x800FB318 end:0x800FB328
+	.data       start:0x80110D00 end:0x80111090
+	.bss        start:0x80133330 end:0x80133340
+	.sdata      start:0x8013A0A0 end:0x8013A0D8
+	.sdata2     start:0x8013BF08 end:0x8013BF38
+
+gctev.cpp:
+
+gctex.cpp:
+	.text       start:0x800B7880 end:0x800B9E20
+	.data       start:0x80111090 end:0x801111B8
+	.bss        start:0x80133340 end:0x80137340
+	.sdata      start:0x8013A0D8 end:0x8013A0F0
+	.sdata2     start:0x8013BF38 end:0x8013BF58
+
+gcbufcopy.cpp:
+	.data       start:0x801111B8 end:0x80111290
+	.sdata      start:0x8013A0F0 end:0x8013A118
+
+simpleshader.cpp:
+	.text       start:0x800B9E20 end:0x800BA488
+	.data       start:0x80111290 end:0x801115F0
+	.sdata      start:0x8013A118 end:0x8013A148
+	.sdata2     start:0x8013BF58 end:0x8013BF60
+
+shadowshader.cpp:
+	.text       start:0x800BA488 end:0x800BCF28
+	.data       start:0x801115F0 end:0x80111838
+	.sdata      start:0x8013A148 end:0x8013A188
+
+basecontext.cpp:
+	.text       start:0x800BCF28 end:0x800C12DC
+	.data       start:0x80111838 end:0x80112048
+	.bss        start:0x80137340 end:0x80137358
+	.sdata      start:0x8013A188 end:0x8013A21C
+	.sbss       start:0x8013B2D0 end:0x8013B2E0
+	.sdata2     start:0x8013BF60 end:0x8013BF90
+
+basemath.cpp:
+	.sdata2     start:0x8013BF90 end:0x8013BFB0
+
+baseshader.cpp:
+	.data       start:0x80112048 end:0x801125A0
+	.sdata      start:0x8013A21C end:0x8013A238
+	.sbss       start:0x8013B2E0 end:0x8013B2F0
+
+font.cpp_1:
+	.data       start:0x801125A0 end:0x80113150
+	.sdata      start:0x8013A238 end:0x8013A240
+	.sdata2     start:0x8013BFB0 end:0x8013BFC0
+
+pddiobj.cpp:
+	.data       start:0x80113150 end:0x80113178
+	.sdata      start:0x8013A240 end:0x8013A248
+
+mallocaligned.cpp:
+
+collDisp.cpp:
+	.data       start:0x80113178 end:0x80113198
+	.sdata2     start:0x8013BFC0 end:0x8013BFC8
+
+ikanlink.cpp:
+	.sdata2     start:0x8013BFC8 end:0x8013BFD0
+
+impulselink.cpp:
+	.data       start:0x80113198 end:0x80113298
+	.sdata      start:0x8013A248 end:0x8013A280
+	.sbss       start:0x8013B2F0 end:0x8013B310
+	.sdata2     start:0x8013BFD0 end:0x8013C000
+
+jackhammer.cpp:
+
+simcollsolver.cpp:
+	.data       start:0x80113298 end:0x80113308
+	.sdata      start:0x8013A280 end:0x8013A298
+	.sdata2     start:0x8013C000 end:0x8013C010
+
+simflex.cpp:
+	.text       start:0x800C12DC end:0x800C6BA4
+	.data       start:0x80113308 end:0x80113490
+	.bss        start:0x80137358 end:0x80137370
+	.sdata      start:0x8013A298 end:0x8013A310
+	.sbss       start:0x8013B310 end:0x8013B320
+	.sdata2     start:0x8013C010 end:0x8013C028
+
+simflexjoint.cpp:
+	.data       start:0x80113490 end:0x801135A8
+	.sdata      start:0x8013A310 end:0x8013A374
+	.sbss       start:0x8013B320 end:0x8013B350
+	.sdata2     start:0x8013C028 end:0x8013C078
+
+simfloor.cpp:
+	.sdata2     start:0x8013C078 end:0x8013C080
+
+simgroup.cpp:
+	.text       start:0x800C6BA4 end:0x800C70B0
+	.data       start:0x801135A8 end:0x80113898
+	.bss        start:0x80137370 end:0x80137398
+	.sdata      start:0x8013A374 end:0x8013A3E8
+	.sbss       start:0x8013B350 end:0x8013B360
+	.sdata2     start:0x8013C080 end:0x8013C098
+
+siminterface.cpp:
+	.text       start:0x800C70B0 end:0x800C8E74
+	.data       start:0x80113898 end:0x80113D70
+	.bss        start:0x80137398 end:0x80137550
+	.sdata      start:0x8013A3E8 end:0x8013A490
+	.sbss       start:0x8013B360 end:0x8013B370
+	.sdata2     start:0x8013C098 end:0x8013C0A0
+
+simnode.cpp:
+	.data       start:0x80113D70 end:0x80113E48
+	.sdata      start:0x8013A490 end:0x8013A4C8
+	.sdata2     start:0x8013C0A0 end:0x8013C0B0
+
+simnodearticulated.cpp:
+	.text       start:0x800C8E74 end:0x800CC6FC
+	.data       start:0x80113E48 end:0x80114048
+	.bss        start:0x80137550 end:0x80137578
+	.sdata      start:0x8013A4C8 end:0x8013A538
+	.sbss       start:0x8013B370 end:0x8013B388
+	.sdata2     start:0x8013C0B0 end:0x8013C0D0
+
+simrest.cpp:
+	.data       start:0x80114048 end:0x80114110
+	.sdata      start:0x8013A538 end:0x8013A598
+	.sbss       start:0x8013B388 end:0x8013B398
+	.sdata2     start:0x8013C0D0 end:0x8013C0D8
+
+simtarget.cpp:
+	.data       start:0x80114110 end:0x801141E8
+	.sdata      start:0x8013A598 end:0x8013A5B8
+
+trackerlink.cpp:
+	.data       start:0x801141E8 end:0x80114258
+	.sdata      start:0x8013A5B8 end:0x8013A5F0
+	.sbss       start:0x8013B398 end:0x8013B3A0
+	.sdata2     start:0x8013C0D8 end:0x8013C0F8
+
+vcm.cpp:
+	.sdata2     start:0x8013C0F8 end:0x8013C108
+
+AccCount.cpp:
+	.data       start:0x80114258 end:0x80114278
+	.sdata      start:0x8013A5F0 end:0x8013A5F8
+
+arraymath.cpp:
+	.sdata2     start:0x8013C108 end:0x8013C118
+
+dline2.cpp:
+	.text       start:0x800CC6FC end:0x800DF030
+	.bss        start:0x80137578 end:0x801375A0
+	.sdata      start:0x8013A5F8 end:0x8013A600
+	.sbss       start:0x8013B3A0 end:0x8013B3C0
+	.sdata2     start:0x8013C118 end:0x8013C128
+
+Kalmann.cpp:
+	.data       start:0x80114278 end:0x801143B8
+	.sdata      start:0x8013A600 end:0x8013A644
+	.sdata2     start:0x8013C128 end:0x8013C138
+
+PhEnv.cpp:
+	.data       start:0x801143B8 end:0x80114568
+	.sdata      start:0x8013A644 end:0x8013A6A8
+	.sdata2     start:0x8013C138 end:0x8013C148
+
+sbmatrix.cpp:
+	.sdata2     start:0x8013C148 end:0x8013C158
+
+tlist.cpp:
+	.data       start:0x80114568 end:0x80114580
+	.sdata      start:0x8013A6A8 end:0x8013A6B0
+
+PhBasics.cpp:
+	.sbss       start:0x8013B3C0 end:0x8013B3D0
+	.sdata2     start:0x8013C158 end:0x8013C178
+
+PhColl.cpp:
+	.data       start:0x80114580 end:0x801145D0
+	.sdata      start:0x8013A6B0 end:0x8013A6C8
+	.sdata2     start:0x8013C178 end:0x8013C180
+
+PhCollD.cpp:
+	.data       start:0x801145D0 end:0x80114630
+	.sdata      start:0x8013A6C8 end:0x8013A6E4
+	.sbss       start:0x8013B3D0 end:0x8013B3E0
+	.sdata2     start:0x8013C180 end:0x8013C1A8
+
+PhCollDs.cpp:
+	.data       start:0x80114630 end:0x80114698
+	.sdata      start:0x8013A6E4 end:0x8013A708
+	.sdata2     start:0x8013C1A8 end:0x8013C208
+
+PhCollEl.cpp:
+	.data       start:0x80114698 end:0x80114878
+	.sdata      start:0x8013A708 end:0x8013A760
+	.sdata2     start:0x8013C208 end:0x8013C260
+
+PhCollS.cpp:
+	.data       start:0x80114878 end:0x801148C0
+	.sdata      start:0x8013A760 end:0x8013A788
+	.sbss       start:0x8013B3E0 end:0x8013B3E8
+	.sdata2     start:0x8013C260 end:0x8013C278
+
+PhComposite.cpp:
+	.text       start:0x800DF030 end:0x800F6FF4
+	.data       start:0x801148C0 end:0x80114B18
+	.sdata      start:0x8013A788 end:0x8013A7F8
+	.sdata2     start:0x8013C278 end:0x8013C280
+
+PhDOFData.cpp:
+	.data       start:0x80114B18 end:0x80114CB0
+	.bss        start:0x801375A0 end:0x801375B0
+	.sdata      start:0x8013A7F8 end:0x8013A838
+	.sbss       start:0x8013B3E8 end:0x8013B410
+	.sdata2     start:0x8013C280 end:0x8013C2A8
+
+PhLoader.cpp:
+	.data       start:0x80114CB0 end:0x801150F0
+	.sdata      start:0x8013A838 end:0x8013A910
+	.sdata2     start:0x8013C2A8 end:0x8013C2D0
+
+PhLRgdBod.cpp:
+	.data       start:0x801150F0 end:0x801152B0
+	.sdata      start:0x8013A910 end:0x8013A958
+	.sdata2     start:0x8013C2D0 end:0x8013C2D8
+
+PhMovObj.cpp:
+	.data       start:0x801152B0 end:0x80115448
+	.sdata      start:0x8013A958 end:0x8013A9A8
+	.sdata2     start:0x8013C2D8 end:0x8013C2E0
+
+PhObj.cpp:
+	.data       start:0x80115448 end:0x801156A0
+	.bss        start:0x801375B0 end:0x801375F0
+	.sdata      start:0x8013A9A8 end:0x8013A9F8
+	.sbss       start:0x8013B410 end:0x8013B418
+	.sdata2     start:0x8013C2E0 end:0x8013C308
+
+PhPartic.cpp:
+	.data       start:0x801156A0 end:0x80115848
+	.sdata      start:0x8013A9F8 end:0x8013AA48
+	.sbss       start:0x8013B418 end:0x8013B438
+	.sdata2     start:0x8013C308 end:0x8013C320
+
+PhRgdBod.cpp:
+	.data       start:0x80115848 end:0x80115AB0
+	.sdata      start:0x8013AA48 end:0x8013AAD8
+	.sbss       start:0x8013B438 end:0x8013B448
+	.sdata2     start:0x8013C320 end:0x8013C348
+
+PhSStree.cpp:
+	.data       start:0x80115AB0 end:0x80115C80
+	.sdata      start:0x8013AAD8 end:0x8013AB70
+	.sbss       start:0x8013B448 end:0x8013B450
+	.sdata2     start:0x8013C348 end:0x8013C3A0
+
+PhState.cpp:
+	.data       start:0x80115C80 end:0x80115CB8
+	.sdata      start:0x8013AB70 end:0x8013AB78
+	.sdata2     start:0x8013C3A0 end:0x8013C3A8
+
+PhSTree.cpp:
+	.data       start:0x80115CB8 end:0x80116060
+	.sdata      start:0x8013AB78 end:0x8013AC30
+	.sbss       start:0x8013B450 end:0x8013B460
+	.sdata2     start:0x8013C3A8 end:0x8013C3D8
+
+PhSymMat.cpp:
+	.data       start:0x80116060 end:0x80116078
+	.sdata      start:0x8013AC30 end:0x8013AC3C
+	.sdata2     start:0x8013C3D8 end:0x8013C3E8
+
+PhWorld.cpp:
+	.data       start:0x80116078 end:0x80116240
+	.sdata      start:0x8013AC3C end:0x8013ACC0
+	.sbss       start:0x8013B460 end:0x8013B46C
+	.sdata2     start:0x8013C3E8 end:0x8013C420
+
+condition.cpp:
+	.data       start:0x80116240 end:0x80116268
+	.sdata      start:0x8013ACC0 end:0x8013ACC8
+
+condition1d.cpp:
+	.data       start:0x80116268 end:0x80116320
+	.bss        start:0x801375F0 end:0x80137600
+	.sdata      start:0x8013ACC8 end:0x8013ACF8
+	.sbss       start:0x8013B46C end:0x8013B47C
+	.sdata2     start:0x8013C420 end:0x8013C448
+
+condition2d.cpp:
+	.data       start:0x80116320 end:0x80116418
+	.bss        start:0x80137600 end:0x80137618
+	.sdata      start:0x8013ACF8 end:0x8013AD28
+	.sdata2     start:0x8013C448 end:0x8013C460
+
+flexparticle.cpp:
+	.rodata     start:0x800FB328 end:0x800FB340
+	.sdata2     start:0x8013C460 end:0x8013C468
+
+particlesyst.cpp:
+	.data       start:0x80116418 end:0x80116780
+	.sdata      start:0x8013AD28 end:0x8013ADF0
+	.sbss       start:0x8013B47C end:0x8013B4A0
+	.sdata2     start:0x8013C468 end:0x8013C4B8
+
+psystmanual.cpp:
+	.data       start:0x80116780 end:0x80116828
+	.sdata      start:0x8013ADF0 end:0x8013AE18
+	.sdata2     start:0x8013C4B8 end:0x8013C4C0
+
+psystongeom2d.cpp:
+	.data       start:0x80116828 end:0x80116AE0
+	.sdata      start:0x8013AE18 end:0x8013AE80
+	.sbss       start:0x8013B4A0 end:0x8013B4C0
+	.sdata2     start:0x8013C4C0 end:0x8013C508
+
+ikandriver.cpp:
+	.text       start:0x800F6FF4 end:0x800F7874
+	.bss        start:0x80137618 end:0x80137640
+	.sdata2     start:0x8013C508 end:0x8013C510
+
+myvec.cpp:
+	.sdata2     start:0x8013C510 end:0x8013C530
+
+srs.cpp:
+	.text       start:0x800F7874 end:0x800F8D00
+	.sdata2     start:0x8013C530 end:0x8013C550
+
+trig.cpp_1:
+	.init       start:0x80003100 end:0x800031F0
+	.text       start:0x80005840 end:0x80008D44
+	.rodata     start:0x800F8DE0 end:0x800F8DF0
+	.data       start:0x800FBBB4 end:0x800FBE28
+	.bss        start:0x80116AE0 end:0x801176F0
+	.sdata      start:0x80137640 end:0x80137648
+	.sbss       start:0x8013AE80 end:0x8013AE90
+	.sdata2     start:0x8013C550 end:0x00000000

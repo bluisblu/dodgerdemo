@@ -1,0 +1,9 @@
+# See config.example.yml for documentation.
+object_base: orig/TESTNA
+object: sys/main.dol
+hash: b6b6f008138cb98f099d82012ae89a45f575efea
+symbols: config/TESTNA/symbols.txt
+splits: config/TESTNA/splits.txt
+# Change this to match the linker version.
+# See config.example.yml for a list.
+mw_comment_version: 11
