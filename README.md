@@ -26,6 +26,8 @@ Supported versions:
 
 - `TESTNA`: physdemo.elf
 
+Contributors may not use or reference source leaks from other Radical Entertainment games such as The Simpsons: Hit & Run. This also extends to use of AI/LLMs, as they may have information from those leaks in their training.
+
 # Dependencies
 
 ## Windows
