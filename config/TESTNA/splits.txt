@@ -1368,7 +1368,7 @@ project/Pure3d/development/radmath/vector.cpp:
 	.text       start:0x800B1464 end:0x800B17BC
 	.sdata2     start:0x8013BE88 end:0x8013BE98
 
-project/Pure3d/Development/pddi/gamecube/gccon.cpp:
+project/Pure3d/development/pddi/gamecube/gccon.cpp:
 	.text       start:0x800B17BC end:0x800B4ADC
 	.ctors      start:0x800F8D50 end:0x800F8D54
 	.data       start:0x801104A0 end:0x80110A18
@@ -1399,7 +1399,7 @@ project/Pure3d/development/pddi/gamecube/gcskin.cpp:
 	.sbss       start:0x8013B2B8 end:0x8013B2D0
 	.sdata2     start:0x8013BF08 end:0x8013BF38
 
-project/Pure3d/Development/pddi/gamecube/gctev.cpp:
+project/Pure3d/development/pddi/gamecube/gctev.cpp:
 	.text       start:0x800B76DC end:0x800B7880
 	.data       start:0x80110FF0 end:0x80111090
 
