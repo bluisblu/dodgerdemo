@@ -274,9 +274,11 @@ def Rel(lib_name: str, objects: List[Object]) -> Dict[str, Any]:
     }
 
 
-Matching = True                   # Object matches and should be linked
-NonMatching = False               # Object does not match and should not be linked
-Equivalent = config.non_matching  # Object should be linked when configured with --non-matching
+Matching = True  # Object matches and should be linked
+NonMatching = False  # Object does not match and should not be linked
+Equivalent = (
+    config.non_matching
+)  # Object should be linked when configured with --non-matching
 
 
 # Object is only matching for specific versions
@@ -295,6 +297,24 @@ config.libs = [
         "objects": [
             Object(NonMatching, "Runtime.PPCEABI.H/global_destructor_chain.c"),
             Object(NonMatching, "Runtime.PPCEABI.H/__init_cpp_exceptions.cpp"),
+        ],
+    },
+    {
+        "lib": "libpng",
+        "mw_version": config.linker_version,
+        "cflags": cflags_runtime,
+        "progress_category": "libpng",  # str | List[str]
+        "objects": [
+            Object(NonMatching, "Pure3d/development/lib/libpng/png.c"),
+            Object(NonMatching, "Pure3d/development/lib/libpng/pngerror.c"),
+            Object(NonMatching, "Pure3d/development/lib/libpng/pngget.c"),
+            Object(NonMatching, "Pure3d/development/lib/libpng/pngmem.c"),
+            Object(NonMatching, "Pure3d/development/lib/libpng/pngread.c"),
+            Object(NonMatching, "Pure3d/development/lib/libpng/pngrio.c"),
+            Object(NonMatching, "Pure3d/development/lib/libpng/pngrtran.c"),
+            Object(NonMatching, "Pure3d/development/lib/libpng/pngrutil.c"),
+            Object(NonMatching, "Pure3d/development/lib/libpng/pngset.c"),
+            Object(NonMatching, "Pure3d/development/lib/libpng/pngtrans.c"),
         ],
     },
     DolphinLib(
@@ -459,6 +479,7 @@ def link_order_callback(module_id: int, objects: List[str]) -> List[str]:
 config.progress_categories = [
     ProgressCategory("game", "Game Code"),
     ProgressCategory("sdk", "SDK Code"),
+    ProgressCategory("libpng", "Libpng Code"),
 ]
 config.progress_each_module = args.verbose
 # Optional extra arguments to `objdiff-cli report generate`
