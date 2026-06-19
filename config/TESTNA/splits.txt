@@ -12,12 +12,1788 @@ Sections:
 	.sbss       type:bss align:8
 	.sdata2     type:rodata align:32
 
-Runtime.PPCEABI.H/global_destructor_chain.c:
-	.text       start:0x8002B894 end:0x8002B8DC
-	.dtors      start:0x800F8DA8 end:0x800F8DAC
+project/physicsDemo/code/aramobj.cpp:
+	.text       start:0x80005840 end:0x80005AFC
+	.data       start:0x800FB340 end:0x800FB380
+	.bss        start:0x80116AE0 end:0x801176F0
+	.sdata      start:0x80137640 end:0x80137648
 
-Runtime.PPCEABI.H/__init_cpp_exceptions.cpp:
+project/physicsDemo/code/game.cpp:
+	.text       start:0x80005AFC end:0x80009390
+	.ctors      start:0x800F8D04 end:0x800F8D08
+	.data       start:0x800FB380 end:0x800FBE28
+	.bss        start:0x801176F0 end:0x80117700
+	.sdata      start:0x80137648 end:0x801377E0
+	.sbss       start:0x8013AE80 end:0x8013AE88
+	.sdata2     start:0x8013B4C0 end:0x8013B558
+
+project/physicsDemo/code/GameSimGroup.cpp:
+	.text       start:0x80009390 end:0x80009C54
+	.data       start:0x800FBE28 end:0x800FC078
+	.sdata      start:0x801377E0 end:0x801377F0
+	.sdata2     start:0x8013B558 end:0x8013B5A0
+
+project/physicsDemo/code/GameSimNodeArt.cpp:
+	.text       start:0x80009C54 end:0x8000A4E0
+	.ctors      start:0x800F8D08 end:0x800F8D0C
+	.data       start:0x800FC078 end:0x800FC170
+	.bss        start:0x80117700 end:0x80117718
+	.sdata      start:0x801377F0 end:0x80137860
+	.sdata2     start:0x8013B5A0 end:0x8013B5C0
+
+project/physicsDemo/code/FlexDrawable.cpp:
+	.text       start:0x8000A4E0 end:0x8000AF88
+	.data       start:0x800FC170 end:0x800FC288
+	.sdata      start:0x80137860 end:0x80137890
+	.sbss       start:0x8013AE88 end:0x8013AE90
+
+project/physicsDemo/code/PhysicsDrawable.cpp:
+	.data       start:0x800FC288 end:0x800FC6B0
+	.sdata      start:0x80137890 end:0x80137950
+	.sdata2     start:0x8013B5C0 end:0x8013B5C8
+
+project/physicsDemo/code/guPrimGroupShadow.cpp:
+	.text       start:0x8000AF88 end:0x8000C024
+	.ctors      start:0x800F8D0C end:0x800F8D10
+	.data       start:0x800FC6B0 end:0x800FC790
+	.bss        start:0x80117718 end:0x80117740
+	.sdata      start:0x80137950 end:0x80137980
+	.sbss       start:0x8013AE90 end:0x8013AE98
+	.sdata2     start:0x8013B5C8 end:0x8013B5E8
+
+project/physicsDemo/code/soundsample.cpp:
+	.text       start:0x8000C024 end:0x8000C730
+	.data       start:0x800FC790 end:0x800FC7B8
+	.bss        start:0x80117740 end:0x80117840
+	.sbss       start:0x8013AE98 end:0x8013AEA8
+	.sdata2     start:0x8013B5E8 end:0x8013B618
+
+project/physicsDemo/code/viewercamera.cpp:
+	.text       start:0x8000C730 end:0x8000CF48
+	.data       start:0x800FC7B8 end:0x800FC8A8
+	.sdata      start:0x80137980 end:0x801379B8
+	.sdata2     start:0x8013B618 end:0x8013B640
+
+project/physicsDemo/code/GameCube.cpp:
+	.text       start:0x8000CF48 end:0x8000D500
+	.ctors      start:0x800F8D10 end:0x800F8D14
+	.data       start:0x800FC8A8 end:0x800FC8B8
+	.bss        start:0x80117840 end:0x80117868
+	.sbss       start:0x8013AEA8 end:0x8013AEB0
+	.sdata2     start:0x8013B640 end:0x8013B668
+
+project/dolphin/libraries/base/src/PPCArch.c:
+	.text       start:0x8000D500 end:0x8000D570
+
+project/dolphin/libraries/os/src/OS.c:
+	.text       start:0x8000D570 end:0x8000DC74
+	.data       start:0x800FC8B8 end:0x800FCA78
+	.sbss       start:0x8013AEB0 end:0x8013AEC0
+
+project/dolphin/libraries/os/src/OSAlarm.c:
+	.text       start:0x8000DC74 end:0x8000E360
+	.sbss       start:0x8013AEC0 end:0x8013AEC8
+
+project/dolphin/libraries/os/src/OSAlloc.c:
+	.text       start:0x8000E360 end:0x8000E670
+	.sdata      start:0x801379B8 end:0x801379C0
+	.sbss       start:0x8013AEC8 end:0x8013AED8
+
+project/dolphin/libraries/os/src/OSArena.c:
+	.text       start:0x8000E670 end:0x8000E690
+	.sdata      start:0x801379C0 end:0x801379C8
+	.sbss       start:0x8013AED8 end:0x8013AEE0
+
+project/dolphin/libraries/os/src/OSAudioSystem.c:
+	.text       start:0x8000E690 end:0x8000E824
+	.data       start:0x800FCA78 end:0x800FCAF8
+
+project/dolphin/libraries/os/src/OSCache.c:
+	.text       start:0x8000E824 end:0x8000EC14
+	.data       start:0x800FCAF8 end:0x800FCD28
+
+project/dolphin/libraries/os/src/OSContext.c:
+	.text       start:0x8000EC14 end:0x8000F47C
+	.data       start:0x800FCD28 end:0x800FCF00
+
+project/dolphin/libraries/os/src/OSError.c:
+	.text       start:0x8000F47C end:0x8000F7B8
+	.data       start:0x800FCF00 end:0x800FD138
+	.bss        start:0x80117868 end:0x801178A8
+	.sdata      start:0x801379C8 end:0x801379D0
+
+project/dolphin/libraries/os/src/OSExi.c:
+	.text       start:0x8000F7B8 end:0x80010844
+	.bss        start:0x801178A8 end:0x80117960
+
+project/dolphin/libraries/os/src/OSInterrupt.c:
+	.text       start:0x80010844 end:0x80011064
+	.data       start:0x800FD138 end:0x800FD1D0
+	.sbss       start:0x8013AEE0 end:0x8013AEE8
+
+project/dolphin/libraries/os/src/OSLink.c:
+	.text       start:0x80011064 end:0x8001107C
+
+project/dolphin/libraries/os/src/OSMutex.c:
+	.text       start:0x8001107C end:0x800112C8
+
+project/dolphin/libraries/os/src/OSReset.c:
+	.text       start:0x800112C8 end:0x8001134C
+	.sbss       start:0x8013AEE8 end:0x8013AEF0
+
+project/dolphin/libraries/os/src/OSResetSW.c:
+	.text       start:0x8001134C end:0x800113A0
+	.sbss       start:0x8013AEF0 end:0x8013AEF8
+
+project/dolphin/libraries/os/src/OSRtc.c:
+	.text       start:0x800113A0 end:0x80011A3C
+	.bss        start:0x80117960 end:0x801179B8
+
+project/dolphin/libraries/os/src/OSSerial.c:
+	.text       start:0x80011A3C end:0x800123AC
+	.data       start:0x800FD1D0 end:0x800FD1E8
+	.bss        start:0x801179B8 end:0x80117AD8
+
+project/dolphin/libraries/os/src/OSSync.c:
+	.text       start:0x800123AC end:0x80012430
+
+project/dolphin/libraries/os/src/OSThread.c:
+	.text       start:0x80012430 end:0x80013300
+	.bss        start:0x80117AD8 end:0x801184C0
+	.sbss       start:0x8013AEF8 end:0x8013AF08
+
+project/dolphin/libraries/os/src/OSTime.c:
+	.text       start:0x80013300 end:0x80013384
+
+project/dolphin/libraries/os/src/OSUartExi.c:
+	.text       start:0x80013384 end:0x800135D4
+	.sbss       start:0x8013AF08 end:0x8013AF10
+
+project/dolphin/libraries/ax/src/AXAlloc.c:
+	.bss        start:0x801184C0 end:0x801185C0
+	.sbss       start:0x8013AF10 end:0x8013AF18
+
+project/dolphin/libraries/os/src/init/__start.c:
+	.init       start:0x80003100 end:0x800032CC
+
+project/dolphin/libraries/os/src/init/__ppc_eabi_init.cpp:
+	.init       start:0x800032CC end:0x80003320
+	.text       start:0x800135D4 end:0x80013668
+
+project/dolphin/libraries/ax/src/AX.c:
+	.text       start:0x80013668 end:0x80013AA8
+
+project/dolphin/libraries/ax/src/AXAux.c:
+	.text       start:0x80013AA8 end:0x80013DB4
+	.bss        start:0x801185C0 end:0x8011B2C0
+	.sbss       start:0x8013AF18 end:0x8013AF48
+
+project/dolphin/libraries/ax/src/AXCL.c:
+	.text       start:0x80013DB4 end:0x800142B4
+	.bss        start:0x8011B2C0 end:0x8011B9C0
+	.sbss       start:0x8013AF48 end:0x8013AF58
+
+project/dolphin/libraries/ax/src/AXOut.c:
+	.text       start:0x800142B4 end:0x80014924
+	.bss        start:0x8011B9C0 end:0x801201E0
+	.sbss       start:0x8013AF58 end:0x8013AF78
+
+project/dolphin/libraries/ax/src/AXSPB.c:
+	.text       start:0x80014924 end:0x80014DE8
+	.bss        start:0x801201E0 end:0x80120220
+	.sbss       start:0x8013AF78 end:0x8013AFA0
+
+project/dolphin/libraries/ax/src/AXVPB.c:
+	.text       start:0x80014DE8 end:0x80015ED0
+	.data       start:0x800FD1E8 end:0x800FD280
+	.bss        start:0x80120220 end:0x80130020
+	.sbss       start:0x8013AFA0 end:0x8013AFB0
+
+project/dolphin/libraries/ax/src/DSPCode.c:
+	.data       start:0x800FD280 end:0x800FEC60
+	.sdata      start:0x801379D0 end:0x801379D8
+
+project/dolphin/libraries/ax/src/AXProf.c:
+	.text       start:0x80015ED0 end:0x80015F18
+	.sbss       start:0x8013AFB0 end:0x8013AFC0
+
+project/dolphin/libraries/db/src/db.c:
+	.text       start:0x80015F18 end:0x80016004
+	.data       start:0x800FEC60 end:0x800FEC78
+	.sbss       start:0x8013AFC0 end:0x8013AFC8
+
+project/dolphin/libraries/mtx/src/mtx44.c:
+	.text       start:0x80016004 end:0x8001609C
+	.sdata2     start:0x8013B668 end:0x8013B678
+
+project/dolphin/libraries/dvd/src/dvdlow.c:
+	.text       start:0x8001609C end:0x80016E68
+	.bss        start:0x80130020 end:0x801300E0
+	.sdata      start:0x801379D8 end:0x801379E0
+	.sbss       start:0x8013AFC8 end:0x8013B000
+
+project/dolphin/libraries/dvd/src/dvdfs.c:
+	.text       start:0x80016E68 end:0x800175CC
+	.data       start:0x800FEC78 end:0x800FEDA8
+	.sdata      start:0x801379E0 end:0x801379E8
+	.sbss       start:0x8013B000 end:0x8013B018
+
+project/dolphin/libraries/dvd/src/dvd.c:
+	.text       start:0x800175CC end:0x80019604
+	.data       start:0x800FEDA8 end:0x800FEE88
+	.bss        start:0x801300E0 end:0x801301B8
+	.sdata      start:0x801379E8 end:0x801379F0
+	.sbss       start:0x8013B018 end:0x8013B068
+
+project/dolphin/libraries/dvd/src/dvdqueue.c:
+	.text       start:0x80019604 end:0x8001981C
+	.bss        start:0x801301B8 end:0x801301D8
+
+project/dolphin/libraries/dvd/src/dvderror.c:
+	.text       start:0x8001981C end:0x80019974
+	.data       start:0x800FEE88 end:0x800FEEC8
+
+project/dolphin/libraries/dvd/src/emu_level2/fstload.c:
+	.text       start:0x80019974 end:0x80019B9C
+	.data       start:0x800FEEC8 end:0x800FEF38
+	.bss        start:0x801301D8 end:0x80130248
+	.sdata      start:0x801379F0 end:0x80137A00
+	.sbss       start:0x8013B068 end:0x8013B078
+
+project/dolphin/libraries/vi/src/vi.c:
+	.text       start:0x80019B9C end:0x8001B1FC
+	.data       start:0x800FEF38 end:0x800FF0A0
+	.bss        start:0x80130248 end:0x80130390
+	.sbss       start:0x8013B078 end:0x8013B0B8
+
+project/dolphin/libraries/pad/src/Padclamp.c:
+	.text       start:0x8001B1FC end:0x8001B434
+	.sdata      start:0x80137A00 end:0x80137A08
+
+project/dolphin/libraries/pad/src/Pad.c:
+	.text       start:0x8001B434 end:0x8001D374
+	.data       start:0x800FF0A0 end:0x800FF108
+	.bss        start:0x80130390 end:0x801303D0
+	.sdata      start:0x80137A08 end:0x80137A20
+	.sbss       start:0x8013B0B8 end:0x8013B0E0
+
+project/dolphin/libraries/ai/src/ai.c:
+	.text       start:0x8001D374 end:0x8001DC28
+	.sbss       start:0x8013B0E0 end:0x8013B120
+
+project/dolphin/libraries/ar/src/ar.c:
+	.text       start:0x8001DC28 end:0x8001ED94
+	.sbss       start:0x8013B120 end:0x8013B138
+	.sdata2     start:0x8013B678 end:0x8013B688
+
+project/dolphin/libraries/ar/src/arq.c:
+	.text       start:0x8001ED94 end:0x8001F128
+	.sbss       start:0x8013B138 end:0x8013B160
+
+project/dolphin/libraries/dsp/src/dsp.c:
+	.text       start:0x8001F128 end:0x8001F36C
+	.data       start:0x800FF108 end:0x800FF140
+	.sbss       start:0x8013B160 end:0x8013B178
+
+project/dolphin/libraries/dsp/src/dsp_debug.c:
+	.text       start:0x8001F36C end:0x8001F3BC
+
+project/dolphin/libraries/dsp/src/dsp_task.c:
+	.text       start:0x8001F3BC end:0x8001FC40
+	.data       start:0x800FF140 end:0x800FF280
+	.sbss       start:0x8013B178 end:0x8013B180
+
+project/dolphin/libraries/gx/src/GXInit.c:
+	.text       start:0x8001FC40 end:0x80020C20
+	.bss        start:0x801303D0 end:0x80130948
+	.sdata      start:0x80137A20 end:0x80137A28
+	.sbss       start:0x8013B180 end:0x8013B190
+	.sdata2     start:0x8013B688 end:0x8013B6A8
+
+project/dolphin/libraries/gx/src/GXFrameBuf.c:
+	.sdata2     start:0x8013B6A8 end:0x8013B6B8
+
+project/dolphin/libraries/gx/src/GXFifo.c:
+	.text       start:0x80020C20 end:0x800214F0
+	.sbss       start:0x8013B190 end:0x8013B1B0
+
+project/dolphin/libraries/gx/src/GXAttr.c:
+	.text       start:0x800214F0 end:0x800222E0
+	.data       start:0x800FF280 end:0x800FF3A0
+	.sdata      start:0x80137A28 end:0x80137A38
+
+project/dolphin/libraries/gx/src/GXMisc.c:
+	.text       start:0x800222E0 end:0x800227BC
+	.sbss       start:0x8013B1B0 end:0x8013B1C8
+
+project/dolphin/libraries/gx/src/GXGeometry.c:
+	.text       start:0x800227BC end:0x800235F0
+	.data       start:0x800FF3A0 end:0x800FF458
+
+project/dolphin/libraries/gx/src/GXLight.c:
+	.text       start:0x800235F0 end:0x80023D78
+	.sdata2     start:0x8013B6B8 end:0x8013B6D8
+
+project/dolphin/libraries/gx/src/GXTexture.c:
+	.text       start:0x80023D78 end:0x80024AC4
+	.data       start:0x800FF458 end:0x800FF680
+	.sdata      start:0x80137A38 end:0x80137A78
+	.sdata2     start:0x8013B6D8 end:0x8013B700
+
+project/dolphin/libraries/gx/src/GXBump.c:
+	.text       start:0x80024AC4 end:0x80024E98
+
+project/dolphin/libraries/gx/src/GXTev.c:
+	.text       start:0x80024E98 end:0x800257AC
+	.data       start:0x800FF680 end:0x800FF6A8
+
+project/dolphin/libraries/gx/src/GXPixel.c:
+	.text       start:0x800257AC end:0x80025EF8
+	.data       start:0x800FF6A8 end:0x800FF6C8
+	.sdata2     start:0x8013B700 end:0x8013B730
+
+project/dolphin/libraries/gx/src/GXStubs.c:
+	.text       start:0x80025EF8 end:0x80025EFC
+
+project/dolphin/libraries/gx/src/GXDisplayList.c:
+	.text       start:0x80025EFC end:0x80025F6C
+
+project/dolphin/libraries/gx/src/GXTransform.c:
+	.text       start:0x80025F6C end:0x800264E8
+	.sdata2     start:0x8013B730 end:0x8013B740
+
+project/dolphin/libraries/gx/src/GXPerf.c:
+	.text       start:0x800264E8 end:0x80027048
+	.data       start:0x800FF6C8 end:0x800FF810
+
+project/MetroTRK/debugger/embedded/MetroTRK/Portable/mainloop.c:
+	.text       start:0x80027048 end:0x800271B0
+
+project/MetroTRK/debugger/embedded/MetroTRK/Portable/nubevent.c:
+	.text       start:0x800271B0 end:0x8002740C
+	.bss        start:0x80130948 end:0x80130970
+
+project/MetroTRK/debugger/embedded/MetroTRK/Portable/nubinit.c:
+	.text       start:0x8002740C end:0x800275A0
+	.rodata     start:0x800F8DC0 end:0x800F8DE0
+	.bss        start:0x80130970 end:0x80130978
+
+project/MetroTRK/debugger/embedded/MetroTRK/Portable/msg.c:
+	.text       start:0x800275A0 end:0x800275C8
+
+project/MetroTRK/debugger/embedded/MetroTRK/Portable/msgbuf.c:
+	.text       start:0x800275C8 end:0x80027E10
+	.bss        start:0x80130978 end:0x80132328
+
+project/MetroTRK/debugger/embedded/MetroTRK/Portable/serpoll.c:
+	.text       start:0x80027E10 end:0x80027FD8
+	.bss        start:0x80132328 end:0x80132340
+
+project/MetroTRK/debugger/embedded/MetroTRK/Os/dolphin/usr_put.c:
+	.text       start:0x80027FD8 end:0x80027FDC
+
+project/MetroTRK/debugger/embedded/MetroTRK/Portable/dispatch.c:
+	.text       start:0x80027FDC end:0x80028074
+	.data       start:0x800FF810 end:0x800FF898
+	.bss        start:0x80132340 end:0x80132348
+
+project/MetroTRK/debugger/embedded/MetroTRK/Portable/msghndlr.c:
+	.text       start:0x80028074 end:0x800292E0
+
+project/MetroTRK/debugger/embedded/MetroTRK/Portable/support.c:
+	.text       start:0x800292E0 end:0x8002975C
+
+project/MetroTRK/debugger/embedded/MetroTRK/Portable/mutex_TRK.c:
+	.text       start:0x8002975C end:0x80029774
+
+project/MetroTRK/debugger/embedded/MetroTRK/Portable/notify.c:
+	.text       start:0x80029774 end:0x8002984C
+
+project/MetroTRK/debugger/embedded/MetroTRK/Processor/ppc/Generic/flush_cache.c:
+	.text       start:0x8002984C end:0x80029884
+
+project/MetroTRK/debugger/embedded/MetroTRK/Processor/ppc/Generic/targimpl.c:
+	.text       start:0x80029884 end:0x8002AE60
+	.rodata     start:0x800F8DE0 end:0x800F8E30
+	.data       start:0x800FF898 end:0x800FF8C8
+	.bss        start:0x80132348 end:0x801328C8
+
+project/MetroTRK/debugger/embedded/MetroTRK/Portable/mem_TRK.c:
+	.init       start:0x80003320 end:0x80003344
+
+project/MetroTRK/debugger/embedded/MetroTRK/Processor/ppc/Generic/__exception.s:
+	.init       start:0x80003344 end:0x80005278
+
+project/MetroTRK/debugger/embedded/MetroTRK/Os/dolphin/dolphin_trk.c:
+	.init       start:0x80005278 end:0x80005298
+	.text       start:0x8002AE60 end:0x8002B054
+	.data       start:0x800FF8C8 end:0x800FF908
+
+project/MetroTRK/debugger/embedded/MetroTRK/Processor/ppc/Generic/mpc_7xx_603e.c:
+	.text       start:0x8002B054 end:0x8002B3CC
+
+project/MetroTRK/debugger/embedded/MetroTRK/Portable/main_TRK.c:
+	.text       start:0x8002B3CC end:0x8002B414
+	.bss        start:0x801328C8 end:0x801328D0
+
+project/MetroTRK/debugger/embedded/MetroTRK/Os/dolphin/dolphin_trk_glue.c:
+	.text       start:0x8002B414 end:0x8002B76C
+	.data       start:0x800FF908 end:0x800FF928
+
+project/MetroTRK/debugger/embedded/MetroTRK/Os/dolphin/targcont.c:
+	.text       start:0x8002B76C end:0x8002B7A0
+
+project/PowerPC_EABI_Support/Runtime/Src/__va_arg.c:
+	.text       start:0x8002B7A0 end:0x8002B894
+
+project/PowerPC_EABI_Support/Runtime/Src/global_destructor_chain.c:
+	.text       start:0x8002B894 end:0x8002B8F4
+	.dtors      start:0x800F8DA8 end:0x800F8DAC
+	.sbss       start:0x8013B1C8 end:0x8013B1D0
+
+project/PowerPC_EABI_Support/Runtime/Src/New.cp:
+	extab       start:0x80005480 end:0x80005504
+	extabindex  start:0x800056C0 end:0x800056F0
+	.text       start:0x8002B8F4 end:0x8002BA70
+
+project/PowerPC_EABI_Support/Runtime/Src/NewMore.cp:
+	extab       start:0x80005504 end:0x8000555C
+	extabindex  start:0x800056F0 end:0x80005714
+	.text       start:0x8002BA70 end:0x8002BBC8
+	.rodata     start:0x800F8E30 end:0x800F8E90
+	.data       start:0x800FF928 end:0x800FF958
+	.sdata      start:0x80137A78 end:0x80137A90
+	.sbss       start:0x8013B1D0 end:0x8013B1D8
+
+project/PowerPC_EABI_Support/Runtime/Src/NMWException.cp:
+	extab       start:0x8000555C end:0x800055C4
+	extabindex  start:0x80005714 end:0x80005780
+	.text       start:0x8002BBC8 end:0x8002C240
+	.sdata      start:0x80137A90 end:0x80137A98
+
+project/PowerPC_EABI_Support/Runtime/Src/ptmf.c:
+	.text       start:0x8002C240 end:0x8002C268
+	.rodata     start:0x800F8E90 end:0x800F8EA0
+
+project/PowerPC_EABI_Support/Runtime/Src/MWRTTI.cp:
+	extab       start:0x800055C4 end:0x80005624
+	extabindex  start:0x80005780 end:0x800057B0
+	.text       start:0x8002C268 end:0x8002C660
+	.rodata     start:0x800F8EA0 end:0x800F8F40
+	.data       start:0x800FF958 end:0x800FF9A0
+	.sdata      start:0x80137A98 end:0x80137AB8
+	.sdata2     start:0x8013B740 end:0x8013B748
+
+project/PowerPC_EABI_Support/Runtime/Src/ExceptionPPC.cp:
+	extab       start:0x80005624 end:0x800056B8
+	extabindex  start:0x800057B0 end:0x80005804
+	.text       start:0x8002C660 end:0x8002DAD0
+	.rodata     start:0x800F8F40 end:0x800F8FD8
+	.data       start:0x800FF9A0 end:0x800FFA98
+	.bss        start:0x801328D0 end:0x801328E0
+	.sdata      start:0x80137AB8 end:0x80137AC8
+
+project/PowerPC_EABI_Support/Runtime/Src/setjmp.c:
+	.text       start:0x8002DAD0 end:0x8002DBC4
+
+project/PowerPC_EABI_Support/Runtime/Src/runtime.c:
+	.text       start:0x8002DBC4 end:0x8002E118
+	.rodata     start:0x800F8FD8 end:0x800F8FF0
+
+project/PowerPC_EABI_Support/Runtime/Src/__init_cpp_exceptions.cpp:
 	.text       start:0x8002E118 end:0x8002E194
 	.ctors      start:0x800F8D00 end:0x800F8D04
 	.dtors      start:0x800F8DA0 end:0x800F8DA8
 	.sdata      start:0x80137AC8 end:0x80137AD0
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/abort_exit.c:
+	.text       start:0x8002E194 end:0x8002E354
+	.bss        start:0x801328E0 end:0x80132AE0
+	.sbss       start:0x8013B1D8 end:0x8013B1F0
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/alloc.c:
+	.text       start:0x8002E354 end:0x8002EC24
+	.rodata     start:0x800F8FF0 end:0x800F9000
+	.bss        start:0x80132AE0 end:0x80132B10
+	.sbss       start:0x8013B1F0 end:0x8013B1F8
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/errno.c:
+	.sbss       start:0x8013B1F8 end:0x8013B200
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/ansi_files.c:
+	.text       start:0x8002EC24 end:0x8002ED68
+	.data       start:0x800FFA98 end:0x800FFB70
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common_Embedded/Src/ansi_fp.c:
+	.text       start:0x8002ED68 end:0x8002F3C0
+	.rodata     start:0x800F9000 end:0x800F9088
+	.sdata      start:0x80137AD0 end:0x80137AD8
+	.sdata2     start:0x8013B748 end:0x8013B778
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/arith.c:
+	.text       start:0x8002F3C0 end:0x8002F3D0
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/buffer_io.c:
+	.text       start:0x8002F3D0 end:0x8002F5A8
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/char_io.c:
+	.text       start:0x8002F5A8 end:0x8002F854
+
+project/PowerPC_EABI_Support/Msl/MSL_C/PPC_EABI/Src/critical_regions.ppc_eabi.c:
+	.text       start:0x8002F854 end:0x8002F858
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/ctype.c:
+	.text       start:0x8002F858 end:0x8002F8A8
+	.rodata     start:0x800F9088 end:0x800F9388
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/locale.c:
+	.rodata     start:0x800F9388 end:0x800F9390
+	.data       start:0x800FFB70 end:0x800FFBA0
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/direct_io.c:
+	.text       start:0x8002F8A8 end:0x8002FEFC
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/file_io.c:
+	.text       start:0x8002FEFC end:0x80030008
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/mbstring.c:
+	.text       start:0x80030008 end:0x80030094
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/mem.c:
+	.text       start:0x80030094 end:0x800301E0
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/mem_funcs.c:
+	.text       start:0x800301E0 end:0x800304BC
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/misc_io.c:
+	.text       start:0x800304BC end:0x800304C0
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/printf.c:
+	.text       start:0x800304C0 end:0x80032050
+	.rodata     start:0x800F9390 end:0x800F93A0
+	.data       start:0x800FFBA0 end:0x800FFDC0
+	.sdata      start:0x80137AD8 end:0x80137AE0
+	.sdata2     start:0x8013B778 end:0x8013B780
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/qsort.c:
+	.text       start:0x80032050 end:0x800321B8
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/scanf.c:
+	.text       start:0x800321B8 end:0x8003320C
+	.rodata     start:0x800F93A0 end:0x800F93C8
+	.data       start:0x800FFDC0 end:0x800FFE90
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/signal.c:
+	.text       start:0x8003320C end:0x800332C0
+	.bss        start:0x80132B10 end:0x80132B28
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/string.c:
+	.text       start:0x800332C0 end:0x80033598
+	.sdata      start:0x80137AE0 end:0x80137AE8
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/strtold.c:
+	.text       start:0x80033598 end:0x80033D08
+	.rodata     start:0x800F93C8 end:0x800F93F8
+	.sdata2     start:0x8013B780 end:0x8013B790
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/strtoul.c:
+	.text       start:0x80033D08 end:0x800344E0
+	.data       start:0x800FFE90 end:0x800FFF18
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/float.c:
+	.data       start:0x800FFF18 end:0x800FFF50
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common_Embedded/Src/uart_console_io.c:
+	.text       start:0x800344E0 end:0x80034660
+	.sbss       start:0x8013B200 end:0x8013B208
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common/Src/wchar_io.c:
+	.text       start:0x80034660 end:0x800346E0
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common_Embedded/Math/Double_precision/e_asin.c:
+	.text       start:0x800346E0 end:0x800346E8
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common_Embedded/Math/Double_precision/e_pow.c:
+	.text       start:0x800346E8 end:0x80034F20
+	.rodata     start:0x800F93F8 end:0x800F9428
+	.sdata2     start:0x8013B790 end:0x8013B8A0
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common_Embedded/Math/Double_precision/fminmaxdim.c:
+	.text       start:0x80034F20 end:0x80034FA0
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_copysign.c:
+	.text       start:0x80034FA0 end:0x80034FCC
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_frexp.c:
+	.text       start:0x80034FCC end:0x80035068
+	.sdata2     start:0x8013B8A0 end:0x8013B8A8
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_ldexp.c:
+	.text       start:0x80035068 end:0x800351E0
+	.sdata2     start:0x8013B8A8 end:0x8013B8D0
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common_Embedded/Math/Double_precision/w_pow.c:
+	.text       start:0x800351E0 end:0x80035200
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common_Embedded/Math/Single_precision/hyperbolicsf.c:
+	.text       start:0x80035200 end:0x80035208
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common_Embedded/Math/Single_precision/inverse_trig.c:
+	.text       start:0x80035208 end:0x800355E4
+	.rodata     start:0x800F9428 end:0x800F94E0
+	.sdata2     start:0x8013B8D0 end:0x8013B8F0
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common_Embedded/Math/Single_precision/roundingf.c:
+	.text       start:0x800355E4 end:0x80035710
+	.sdata2     start:0x8013B8F0 end:0x8013B8F8
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common_Embedded/Math/Single_precision/trigf.c:
+	.text       start:0x80035710 end:0x80035A78
+	.ctors      start:0x800F8D14 end:0x800F8D18
+	.rodata     start:0x800F94E0 end:0x800F94F0
+	.data       start:0x800FFF50 end:0x800FFF60
+	.sdata2     start:0x8013B8F8 end:0x8013B910
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common_Embedded/Math/Single_precision/common_float_tables.c:
+	.data       start:0x800FFF60 end:0x801001B0
+
+project/PowerPC_EABI_Support/Msl/MSL_C/PPC_EABI/SRC/math_inlines.c:
+	.text       start:0x80035A78 end:0x80035B08
+	.sdata2     start:0x8013B910 end:0x8013B928
+
+project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common_Embedded/Math/Single_precision/exponentialsf.c:
+	.text       start:0x80035B08 end:0x80036284
+	.data       start:0x801001B0 end:0x801003F8
+	.sdata      start:0x80137AE8 end:0x80137AF8
+	.sdata2     start:0x8013B928 end:0x8013B940
+
+project/AmcExi2/AmcExi.c:
+	.text       start:0x80036284 end:0x800368C4
+	.bss        start:0x80132B28 end:0x80132B40
+	.sdata      start:0x80137AF8 end:0x80137B00
+
+project/AmcExi2/AmcExi2Comm.c:
+	.text       start:0x800368C4 end:0x80036F68
+	.data       start:0x801003F8 end:0x80100418
+	.sdata      start:0x80137B00 end:0x80137B08
+	.sbss       start:0x8013B208 end:0x8013B218
+
+project/dolphin/libraries/amcnotstub/src/amcnotstub.c:
+	.text       start:0x80036F68 end:0x80036F70
+
+project/dolphin/libraries/odemustubs/src/odemustubs.c:
+	.text       start:0x80036F70 end:0x80036FA0
+
+project/Pure3d/development/p3d/platform/gamecube/error.cpp:
+	.text       start:0x80036FA0 end:0x80037390
+	.data       start:0x80100418 end:0x80100448
+	.bss        start:0x80132B40 end:0x80132F50
+	.sdata      start:0x80137B08 end:0x80137B18
+	.sbss       start:0x8013B218 end:0x8013B228
+
+project/Pure3d/development/p3d/platform/gamecube/plat_filemap.cpp:
+	.text       start:0x80037390 end:0x800376DC
+	.data       start:0x80100448 end:0x80100518
+	.sdata      start:0x80137B18 end:0x80137B40
+
+project/Pure3d/development/p3d/platform/gamecube/platform.cpp:
+	.text       start:0x800376DC end:0x80037C04
+	.sbss       start:0x8013B228 end:0x8013B230
+
+project/Pure3d/development/p3d/billboardQuad.cpp:
+	.text       start:0x80037C04 end:0x80038750
+	.data       start:0x80100518 end:0x801006D8
+	.sdata      start:0x80137B40 end:0x80137BA0
+	.sdata2     start:0x8013B940 end:0x8013B950
+
+project/Pure3d/development/p3d/bmp.cpp:
+	.text       start:0x80038750 end:0x80039468
+	.data       start:0x801006D8 end:0x801007F8
+	.sdata      start:0x80137BA0 end:0x80137BC8
+
+project/Pure3d/development/p3d/camera.cpp:
+	.text       start:0x80039468 end:0x80039D44
+	.data       start:0x801007F8 end:0x80100888
+	.sdata      start:0x80137BC8 end:0x80137BF0
+	.sdata2     start:0x8013B950 end:0x8013B968
+
+project/Pure3d/development/p3d/cameraloader.cpp:
+	.text       start:0x80039D44 end:0x8003A0F4
+	.data       start:0x80100888 end:0x80100958
+	.sdata      start:0x80137BF0 end:0x80137C20
+
+project/Pure3d/development/p3d/chunkfile.cpp:
+	.text       start:0x8003A0F4 end:0x8003A5DC
+
+project/Pure3d/development/p3d/context.cpp:
+	.text       start:0x8003A5DC end:0x8003AD88
+	.data       start:0x80100958 end:0x801009C8
+	.sdata      start:0x80137C20 end:0x80137C28
+	.sdata2     start:0x8013B968 end:0x8013B970
+
+project/Pure3d/development/p3d/directionallight.cpp:
+	.text       start:0x8003AD88 end:0x8003AF64
+	.data       start:0x801009C8 end:0x80100A40
+	.sdata      start:0x80137C28 end:0x80137C58
+	.sdata2     start:0x8013B970 end:0x8013B978
+
+project/Pure3d/development/p3d/drawable.cpp:
+	.text       start:0x8003AF64 end:0x8003BB00
+	.ctors      start:0x800F8D18 end:0x800F8D1C
+	.data       start:0x80100A40 end:0x80100B10
+	.bss        start:0x80132F50 end:0x80132F78
+	.sdata      start:0x80137C58 end:0x80137C80
+	.sbss       start:0x8013B230 end:0x8013B238
+	.sdata2     start:0x8013B978 end:0x8013B980
+
+project/Pure3d/development/p3d/displaylist.cpp:
+	.text       start:0x8003BB00 end:0x8003C170
+	.sdata2     start:0x8013B980 end:0x8013B988
+
+project/Pure3d/development/p3d/dxtn.cpp:
+	.text       start:0x8003C170 end:0x8003C6D4
+	.data       start:0x80100B10 end:0x80100BD8
+	.sdata      start:0x80137C80 end:0x80137CA8
+
+project/Pure3d/development/p3d/entity.cpp:
+	.text       start:0x8003C6D4 end:0x8003C838
+	.data       start:0x80100BD8 end:0x80100C00
+	.sdata      start:0x80137CA8 end:0x80137CC0
+
+project/Pure3d/development/p3d/entitytable.cpp:
+	.text       start:0x8003C838 end:0x8003D1C0
+	.data       start:0x80100C00 end:0x80100C48
+	.sdata      start:0x80137CC0 end:0x80137CE0
+
+project/Pure3d/development/p3d/file.cpp:
+	.text       start:0x8003D1C0 end:0x8003D9DC
+	.data       start:0x80100C48 end:0x80100D00
+	.sdata      start:0x80137CE0 end:0x80137D00
+
+project/Pure3d/development/p3d/font.cpp:
+	.text       start:0x8003D9DC end:0x8003DCCC
+	.data       start:0x80100D00 end:0x80100D80
+	.sdata      start:0x80137D00 end:0x80137D28
+	.sdata2     start:0x8013B988 end:0x8013B990
+
+project/Pure3d/development/p3d/fontutility.cpp:
+	.text       start:0x8003DCCC end:0x8003E618
+	.data       start:0x80100D80 end:0x80100DA8
+	.sdata      start:0x80137D28 end:0x80137D30
+
+project/Pure3d/development/p3d/fontglyph.cpp:
+	.text       start:0x8003E618 end:0x8003ED1C
+	.data       start:0x80100DA8 end:0x80100E80
+	.sdata      start:0x80137D30 end:0x80137D50
+	.sdata2     start:0x8013B990 end:0x8013B998
+
+project/Pure3d/development/p3d/gameattr.cpp:
+	.text       start:0x8003ED1C end:0x8003F77C
+	.data       start:0x80100E80 end:0x80100F80
+	.sdata      start:0x80137D50 end:0x80137D88
+
+project/Pure3d/development/p3d/geometry.cpp:
+	.text       start:0x8003F77C end:0x800403D4
+	.data       start:0x80100F80 end:0x80101140
+	.sdata      start:0x80137D88 end:0x80137DD0
+	.sdata2     start:0x8013B998 end:0x8013B9A0
+
+project/Pure3d/development/p3d/image.cpp:
+	.text       start:0x800403D4 end:0x800416C8
+	.data       start:0x80101140 end:0x80101310
+	.sdata      start:0x80137DD0 end:0x80137E28
+
+project/Pure3d/development/p3d/imageconverter.cpp:
+	.text       start:0x800416C8 end:0x8004292C
+	.data       start:0x80101310 end:0x801014B0
+	.sdata      start:0x80137E28 end:0x80137E68
+
+project/Pure3d/development/p3d/imagefactory.cpp:
+	.text       start:0x8004292C end:0x80044194
+	.data       start:0x801014B0 end:0x80101718
+	.sdata      start:0x80137E68 end:0x80137E98
+
+project/Pure3d/development/p3d/imagefont.cpp:
+	.text       start:0x80044194 end:0x80044634
+	.data       start:0x80101718 end:0x801018A8
+	.sdata      start:0x80137E98 end:0x80137ED0
+
+project/Pure3d/development/p3d/inventory.cpp:
+	.text       start:0x80044634 end:0x80044D28
+	.rodata     start:0x800F94F0 end:0x800F95F0
+	.data       start:0x801018A8 end:0x801019B0
+	.sdata      start:0x80137ED0 end:0x80137F00
+
+project/Pure3d/development/p3d/ipu.cpp:
+	.text       start:0x80044D28 end:0x800450D4
+	.data       start:0x801019B0 end:0x80101A78
+	.sdata      start:0x80137F00 end:0x80137F28
+	.sdata2     start:0x8013B9A0 end:0x8013B9A8
+
+project/Pure3d/development/p3d/light.cpp:
+	.text       start:0x800450D4 end:0x80045420
+	.data       start:0x80101A78 end:0x80101AE8
+	.sdata      start:0x80137F28 end:0x80137F58
+
+project/Pure3d/development/p3d/lightloader.cpp:
+	.text       start:0x80045420 end:0x80045FEC
+	.data       start:0x80101AE8 end:0x80101CC8
+	.sdata      start:0x80137F58 end:0x80137FB8
+	.sdata2     start:0x8013B9A8 end:0x8013B9B0
+
+project/Pure3d/development/p3d/loaders.cpp:
+	.text       start:0x80045FEC end:0x80046920
+	.ctors      start:0x800F8D1C end:0x800F8D20
+	.bss        start:0x80132F78 end:0x80132FA0
+	.sbss       start:0x8013B238 end:0x8013B240
+	.sdata2     start:0x8013B9B0 end:0x8013B9B8
+
+project/Pure3d/development/p3d/loadmanager.cpp:
+	.text       start:0x80046920 end:0x80047C28
+	.data       start:0x80101CC8 end:0x80101ED8
+	.sdata      start:0x80137FB8 end:0x80138030
+
+project/Pure3d/development/p3d/locator.cpp:
+	.text       start:0x80047C28 end:0x80047EAC
+	.data       start:0x80101ED8 end:0x80101FD8
+	.sdata      start:0x80138030 end:0x80138068
+
+project/Pure3d/development/p3d/matrixstack.cpp:
+	.text       start:0x80047EAC end:0x80048C78
+	.ctors      start:0x800F8D20 end:0x800F8D24
+	.data       start:0x80101FD8 end:0x80102118
+	.bss        start:0x80132FA0 end:0x80133038
+	.sdata      start:0x80138068 end:0x80138080
+
+project/Pure3d/development/p3d/png.cpp:
+	.text       start:0x80048C78 end:0x80049B58
+	.data       start:0x80102118 end:0x801021E0
+	.sdata      start:0x80138080 end:0x801380B0
+
+project/Pure3d/development/p3d/pointcamera.cpp:
+	.text       start:0x80049B58 end:0x8004A0A8
+	.data       start:0x801021E0 end:0x80102298
+	.sdata      start:0x801380B0 end:0x801380E0
+	.sdata2     start:0x8013B9B8 end:0x8013B9C0
+
+project/Pure3d/development/p3d/pointlight.cpp:
+	.data       start:0x80102298 end:0x80102308
+	.sdata      start:0x801380E0 end:0x80138110
+	.sdata2     start:0x8013B9C0 end:0x8013B9D0
+
+project/Pure3d/development/p3d/primgroup.cpp:
+	.text       start:0x8004A0A8 end:0x8004DB68
+	.data       start:0x80102308 end:0x80102620
+	.sdata      start:0x80138110 end:0x80138170
+	.sdata2     start:0x8013B9D0 end:0x8013B9D8
+
+project/Pure3d/development/p3d/rawimage.cpp:
+	.text       start:0x8004DB68 end:0x8004DDCC
+	.data       start:0x80102620 end:0x80102730
+	.sdata      start:0x80138170 end:0x80138198
+
+project/Pure3d/development/p3d/refcounted.cpp:
+	.text       start:0x8004DDCC end:0x8004DE80
+	.data       start:0x80102730 end:0x80102748
+	.sdata      start:0x80138198 end:0x801381A0
+
+project/Pure3d/development/p3d/shader.cpp:
+	.text       start:0x8004DE80 end:0x8004F2A8
+	.rodata     start:0x800F95F0 end:0x800F97F0
+	.data       start:0x80102748 end:0x80102968
+	.sdata      start:0x801381A0 end:0x80138210
+
+project/Pure3d/development/p3d/spotlight.cpp:
+	.text       start:0x8004F2A8 end:0x8004F634
+	.data       start:0x80102968 end:0x801029D8
+	.sdata      start:0x80138210 end:0x80138240
+	.sdata2     start:0x8013B9D8 end:0x8013B9F0
+
+project/Pure3d/development/p3d/sprite.cpp:
+	.text       start:0x8004F634 end:0x80050E00
+	.data       start:0x801029D8 end:0x80102B78
+	.bss        start:0x80133038 end:0x80133048
+	.sdata      start:0x80138240 end:0x80138290
+	.sbss       start:0x8013B240 end:0x8013B248
+	.sdata2     start:0x8013B9F0 end:0x8013BA10
+
+project/Pure3d/development/p3d/targa.cpp:
+	.text       start:0x80050E00 end:0x8005162C
+	.data       start:0x80102B78 end:0x80102CA0
+	.sdata      start:0x80138290 end:0x801382B8
+
+project/Pure3d/development/p3d/texture.cpp:
+	.text       start:0x8005162C end:0x80051CBC
+	.data       start:0x80102CA0 end:0x80102DA0
+	.sdata      start:0x801382B8 end:0x801382F0
+
+project/Pure3d/development/p3d/texturefont.cpp:
+	.text       start:0x80051CBC end:0x80053C80
+	.data       start:0x80102DA0 end:0x80102FD0
+	.sdata      start:0x801382F0 end:0x80138350
+	.sdata2     start:0x8013BA10 end:0x8013BA38
+
+project/Pure3d/development/p3d/typeface.cpp:
+	.text       start:0x80053C80 end:0x800548E0
+	.data       start:0x80102FD0 end:0x80103188
+	.bss        start:0x80133048 end:0x80133058
+	.sdata      start:0x80138350 end:0x801383C0
+	.sdata2     start:0x8013BA38 end:0x8013BA48
+
+project/Pure3d/development/p3d/unicode.cpp:
+	.text       start:0x800548E0 end:0x80054928
+
+project/Pure3d/development/p3d/utility.cpp:
+	.text       start:0x80054928 end:0x800549F4
+	.sdata      start:0x801383C0 end:0x801383C8
+
+project/Pure3d/development/p3d/vectorcamera.cpp:
+	.text       start:0x800549F4 end:0x80054C1C
+	.data       start:0x80103188 end:0x80103240
+	.sdata      start:0x801383C8 end:0x801383F8
+	.sdata2     start:0x8013BA48 end:0x8013BA50
+
+project/Pure3d/development/p3d/vertexlist.cpp:
+	.text       start:0x80054C1C end:0x800558FC
+	.data       start:0x80103240 end:0x80103290
+	.sdata      start:0x801383F8 end:0x80138410
+
+project/Pure3d/development/p3d/view.cpp:
+	.text       start:0x800558FC end:0x80055FB0
+	.data       start:0x80103290 end:0x801032B8
+	.sdata      start:0x80138410 end:0x80138428
+	.sdata2     start:0x8013BA50 end:0x8013BA60
+
+project/Pure3d/development/p3d/anim/animate.cpp:
+	.text       start:0x80055FB0 end:0x80058004
+	.ctors      start:0x800F8D24 end:0x800F8D28
+	.data       start:0x801032B8 end:0x80103C38
+	.bss        start:0x80133058 end:0x80133080
+	.sdata      start:0x80138428 end:0x80138578
+	.sbss       start:0x8013B248 end:0x8013B250
+	.sdata2     start:0x8013BA60 end:0x8013BA80
+
+project/Pure3d/development/p3d/anim/cameraanimation.cpp:
+	.text       start:0x80058004 end:0x80058B60
+	.data       start:0x80103C38 end:0x80103ED0
+	.sdata      start:0x80138578 end:0x801385E0
+	.sdata2     start:0x8013BA80 end:0x8013BA90
+
+project/Pure3d/development/p3d/anim/channel.cpp:
+	.text       start:0x80058B60 end:0x8005B898
+	.data       start:0x80103ED0 end:0x80104350
+	.sdata      start:0x801385E0 end:0x80138670
+	.sdata2     start:0x8013BA90 end:0x8013BAA8
+
+project/Pure3d/development/p3d/anim/compoundmesh.cpp:
+	.text       start:0x8005B898 end:0x8005C38C
+	.data       start:0x80104350 end:0x80104600
+	.sdata      start:0x80138670 end:0x801386D8
+	.sdata2     start:0x8013BAA8 end:0x8013BAB8
+
+project/Pure3d/development/p3d/anim/compositedrawable.cpp:
+	.text       start:0x8005C38C end:0x8005D4A8
+	.data       start:0x80104600 end:0x801049F0
+	.sdata      start:0x801386D8 end:0x80138758
+	.sdata2     start:0x8013BAB8 end:0x8013BAC8
+
+project/Pure3d/development/p3d/anim/drawablepose.cpp:
+	.text       start:0x8005D4A8 end:0x8005D64C
+	.data       start:0x801049F0 end:0x80104AA8
+	.sdata      start:0x80138758 end:0x80138788
+
+project/Pure3d/development/p3d/anim/event.cpp:
+	.text       start:0x8005D64C end:0x8005D8A0
+	.data       start:0x80104AA8 end:0x80104B60
+	.sdata      start:0x80138788 end:0x801387B0
+
+project/Pure3d/development/p3d/anim/eventanimation.cpp:
+	.text       start:0x8005D8A0 end:0x8005DFB8
+	.data       start:0x80104B60 end:0x80104DB8
+	.sdata      start:0x801387B0 end:0x80138810
+	.sdata2     start:0x8013BAC8 end:0x8013BAE0
+
+project/Pure3d/development/p3d/anim/expression.cpp:
+	.text       start:0x8005DFB8 end:0x8005F3B8
+	.data       start:0x80104DB8 end:0x80105188
+	.sdata      start:0x80138810 end:0x801388A0
+	.sdata2     start:0x8013BAE0 end:0x8013BAE8
+
+project/Pure3d/development/p3d/anim/expressionanimation.cpp:
+	.text       start:0x8005F3B8 end:0x80060338
+	.data       start:0x80105188 end:0x801054F8
+	.sdata      start:0x801388A0 end:0x80138928
+	.sdata2     start:0x8013BAE8 end:0x8013BB00
+
+project/Pure3d/development/p3d/anim/lightanimation.cpp:
+	.text       start:0x80060338 end:0x80060F14
+	.data       start:0x801054F8 end:0x801057F8
+	.sdata      start:0x80138928 end:0x801389A8
+	.sdata2     start:0x8013BB00 end:0x8013BB20
+
+project/Pure3d/development/p3d/anim/multicontroller.cpp:
+	.text       start:0x80060F14 end:0x80061998
+	.data       start:0x801057F8 end:0x80105A38
+	.sdata      start:0x801389A8 end:0x801389F8
+	.sbss       start:0x8013B250 end:0x8013B258
+	.sdata2     start:0x8013BB20 end:0x8013BB30
+
+project/Pure3d/development/p3d/anim/polyskin.cpp:
+	.text       start:0x80061998 end:0x800622A4
+	.data       start:0x80105A38 end:0x80105C70
+	.sdata      start:0x801389F8 end:0x80138A50
+	.sdata2     start:0x8013BB30 end:0x8013BB38
+
+project/Pure3d/development/p3d/anim/pose.cpp:
+	.text       start:0x800622A4 end:0x80062634
+	.data       start:0x80105C70 end:0x80105C98
+	.sdata      start:0x80138A50 end:0x80138A68
+
+project/Pure3d/development/p3d/anim/poseanimation.cpp:
+	.text       start:0x80062634 end:0x80063B58
+	.data       start:0x80105C98 end:0x801060F0
+	.sdata      start:0x80138A68 end:0x80138AE0
+	.sdata2     start:0x8013BB38 end:0x8013BB58
+
+project/Pure3d/development/p3d/anim/poseexpression.cpp:
+	.text       start:0x80063B58 end:0x80064594
+	.data       start:0x801060F0 end:0x80106298
+	.sdata      start:0x80138AE0 end:0x80138B38
+	.sdata2     start:0x8013BB58 end:0x8013BB60
+
+project/Pure3d/development/p3d/anim/sequencer.cpp:
+	.text       start:0x80064594 end:0x80069528
+	.data       start:0x80106298 end:0x80106E28
+	.sdata      start:0x80138B38 end:0x80138CB0
+	.sdata2     start:0x8013BB60 end:0x8013BB70
+
+project/Pure3d/development/p3d/anim/skeleton.cpp:
+	.text       start:0x80069528 end:0x80069CF8
+	.data       start:0x80106E28 end:0x80106F68
+	.sdata      start:0x80138CB0 end:0x80138CE8
+	.sdata2     start:0x8013BB70 end:0x8013BB78
+
+project/Pure3d/development/p3d/anim/textureanimation.cpp:
+	.text       start:0x80069CF8 end:0x8006A360
+	.data       start:0x80106F68 end:0x80107238
+	.sdata      start:0x80138CE8 end:0x80138D50
+	.sdata2     start:0x8013BB78 end:0x8013BB80
+
+project/Pure3d/development/p3d/anim/vertexoffsetanimation.cpp:
+	.text       start:0x8006A360 end:0x8006A6C8
+	.data       start:0x80107238 end:0x80107388
+	.sdata      start:0x80138D50 end:0x80138D90
+	.sdata2     start:0x8013BB80 end:0x8013BB88
+
+project/Pure3d/development/p3d/anim/vertexoffsetexpression.cpp:
+	.text       start:0x8006A6C8 end:0x8006B774
+	.data       start:0x80107388 end:0x80107628
+	.sdata      start:0x80138D90 end:0x80138E08
+	.sdata2     start:0x8013BB88 end:0x8013BBA8
+
+project/Pure3d/development/p3d/anim/visibilityanimation.cpp:
+	.text       start:0x8006B774 end:0x8006C3A4
+	.data       start:0x80107628 end:0x801079C0
+	.sdata      start:0x80138E08 end:0x80138E88
+	.sdata2     start:0x8013BBA8 end:0x8013BBB8
+
+project/Pure3d/development/p3d/effects/optic.cpp:
+	.text       start:0x8006C3A4 end:0x8006C9C4
+	.data       start:0x801079C0 end:0x80107AB8
+	.sdata      start:0x80138E88 end:0x80138EC0
+	.sdata2     start:0x8013BBB8 end:0x8013BBD8
+
+project/Pure3d/development/p3d/effects/opticcorona.cpp:
+	.text       start:0x8006C9C4 end:0x8006D0D4
+	.data       start:0x80107AB8 end:0x80107BA8
+	.sdata      start:0x80138EC0 end:0x80138F08
+	.sdata2     start:0x8013BBD8 end:0x8013BBE8
+
+project/Pure3d/development/p3d/effects/opticlensflare.cpp:
+	.text       start:0x8006D0D4 end:0x8006D8FC
+	.data       start:0x80107BA8 end:0x80107CA0
+	.sdata      start:0x80138F08 end:0x80138F48
+	.sdata2     start:0x8013BBE8 end:0x8013BC00
+
+project/Pure3d/development/p3d/effects/opticloader.cpp:
+	.text       start:0x8006D8FC end:0x8006EA68
+	.data       start:0x80107CA0 end:0x80107EE8
+	.sdata      start:0x80138F48 end:0x80138F98
+	.sdata2     start:0x8013BC00 end:0x8013BC10
+
+project/Pure3d/development/p3d/effects/effect.cpp:
+	.text       start:0x8006EA68 end:0x8006EE1C
+	.data       start:0x80107EE8 end:0x80108040
+	.sdata      start:0x80138F98 end:0x80138FC8
+	.sdata2     start:0x8013BC10 end:0x8013BC20
+
+project/Pure3d/development/p3d/effects/particlearray.cpp:
+	.text       start:0x8006EE1C end:0x8006F898
+	.ctors      start:0x800F8D28 end:0x800F8D2C
+	.data       start:0x80108040 end:0x80108190
+	.bss        start:0x80133080 end:0x801330A8
+	.sdata      start:0x80138FC8 end:0x80139000
+	.sbss       start:0x8013B258 end:0x8013B260
+	.sdata2     start:0x8013BC20 end:0x8013BC28
+
+project/Pure3d/development/p3d/effects/particlechannel.cpp:
+	.text       start:0x8006F898 end:0x8006FCD8
+	.sdata2     start:0x8013BC28 end:0x8013BC38
+
+project/Pure3d/development/p3d/effects/particlegenerator.cpp:
+	.text       start:0x8006FCD8 end:0x80070C50
+	.ctors      start:0x800F8D2C end:0x800F8D30
+	.data       start:0x80108190 end:0x801082D0
+	.bss        start:0x801330A8 end:0x801330D0
+	.sdata      start:0x80139000 end:0x80139038
+	.sbss       start:0x8013B260 end:0x8013B268
+	.sdata2     start:0x8013BC38 end:0x8013BC48
+
+project/Pure3d/development/p3d/effects/particleloader.cpp:
+	.text       start:0x80070C50 end:0x80075630
+	.ctors      start:0x800F8D30 end:0x800F8D34
+	.data       start:0x801082D0 end:0x80108A08
+	.bss        start:0x801330D0 end:0x801330F8
+	.sdata      start:0x80139038 end:0x80139108
+	.sbss       start:0x8013B268 end:0x8013B270
+	.sdata2     start:0x8013BC48 end:0x8013BC60
+
+project/Pure3d/development/p3d/effects/particlesystem.cpp:
+	.text       start:0x80075630 end:0x800767D0
+	.ctors      start:0x800F8D34 end:0x800F8D38
+	.data       start:0x80108A08 end:0x80108B40
+	.bss        start:0x801330F8 end:0x80133120
+	.sdata      start:0x80139108 end:0x80139148
+	.sbss       start:0x8013B270 end:0x8013B278
+	.sdata2     start:0x8013BC60 end:0x8013BC70
+
+project/Pure3d/development/p3d/effects/particletype.cpp:
+	.text       start:0x800767D0 end:0x80076A10
+	.ctors      start:0x800F8D38 end:0x800F8D3C
+	.bss        start:0x80133120 end:0x80133148
+	.sbss       start:0x8013B278 end:0x8013B280
+	.sdata2     start:0x8013BC70 end:0x8013BC80
+
+project/Pure3d/development/p3d/effects/particleforce.cpp:
+	.text       start:0x80076A10 end:0x80078B58
+	.ctors      start:0x800F8D3C end:0x800F8D40
+	.data       start:0x80108B40 end:0x80108E90
+	.bss        start:0x80133148 end:0x80133170
+	.sdata      start:0x80139148 end:0x801391A8
+	.sbss       start:0x8013B280 end:0x8013B288
+	.sdata2     start:0x8013BC80 end:0x8013BCA8
+
+project/Pure3d/development/p3d/effects/particleutility.cpp:
+	.text       start:0x80078B58 end:0x80079060
+	.ctors      start:0x800F8D40 end:0x800F8D44
+	.data       start:0x80108E90 end:0x80108EB0
+	.bss        start:0x80133170 end:0x801331B0
+	.sbss       start:0x8013B288 end:0x8013B2A8
+	.sdata2     start:0x8013BCA8 end:0x8013BCC0
+
+project/Pure3d/development/p3d/effects/particleemitter.cpp:
+	.text       start:0x80079060 end:0x8007E06C
+	.ctors      start:0x800F8D44 end:0x800F8D48
+	.data       start:0x80108EB0 end:0x80109198
+	.bss        start:0x801331B0 end:0x801331D8
+	.sdata      start:0x801391A8 end:0x80139200
+	.sbss       start:0x8013B2A8 end:0x8013B2B0
+	.sdata2     start:0x8013BCC0 end:0x8013BD00
+
+project/Pure3d/development/p3d/effects/particlecollision.cpp:
+	.text       start:0x8007E06C end:0x8007FA7C
+	.ctors      start:0x800F8D48 end:0x800F8D4C
+	.data       start:0x80109198 end:0x80109290
+	.bss        start:0x801331D8 end:0x80133200
+	.sdata      start:0x80139200 end:0x80139230
+	.sbss       start:0x8013B2B0 end:0x8013B2B8
+	.sdata2     start:0x8013BD00 end:0x8013BD18
+
+project/Pure3d/development/p3d/scenegraph/nodeanimation.cpp:
+	.text       start:0x8007FA7C end:0x800806A0
+	.data       start:0x80109290 end:0x801097D0
+	.sdata      start:0x80139230 end:0x801392D0
+	.sdata2     start:0x8013BD18 end:0x8013BD28
+
+project/Pure3d/development/p3d/scenegraph/scenegraph.cpp:
+	.text       start:0x800806A0 end:0x800833C4
+	.ctors      start:0x800F8D4C end:0x800F8D50
+	.data       start:0x801097D0 end:0x80109FA0
+	.bss        start:0x80133200 end:0x80133280
+	.sdata      start:0x801392D0 end:0x80139390
+	.sdata2     start:0x8013BD28 end:0x8013BD30
+
+project/Pure3d/development/lib/libpng/png.c:
+	.text       start:0x800833C4 end:0x8008377C
+	.data       start:0x80109FA0 end:0x8010A058
+	.sdata      start:0x80139390 end:0x80139420
+
+project/Pure3d/development/lib/libpng/pngerror.c:
+	.text       start:0x8008377C end:0x80083B3C
+	.rodata     start:0x800F97F0 end:0x800F9800
+	.data       start:0x8010A058 end:0x8010A080
+
+project/Pure3d/development/lib/libpng/pngget.c:
+	.text       start:0x80083B3C end:0x80083CF4
+
+project/Pure3d/development/lib/libpng/pngmem.c:
+	.text       start:0x80083CF4 end:0x80084004
+	.data       start:0x8010A080 end:0x8010A0D0
+
+project/Pure3d/development/lib/libpng/pngread.c:
+	.text       start:0x80084004 end:0x80084FD8
+	.data       start:0x8010A0D0 end:0x8010A2A8
+	.sdata      start:0x80139420 end:0x80139428
+
+project/Pure3d/development/lib/libpng/pngrio.c:
+	.text       start:0x80084FD8 end:0x800850F8
+	.data       start:0x8010A2A8 end:0x8010A348
+
+project/Pure3d/development/lib/libpng/pngrtran.c:
+	.text       start:0x800850F8 end:0x8008D114
+	.data       start:0x8010A348 end:0x8010A570
+	.sdata2     start:0x8013BD30 end:0x8013BD80
+
+project/Pure3d/development/lib/libpng/pngrutil.c:
+	.text       start:0x8008D114 end:0x80090F24
+	.data       start:0x8010A570 end:0x8010AFA0
+	.sdata2     start:0x8013BD80 end:0x8013BDE0
+
+project/Pure3d/development/lib/libpng/pngset.c:
+	.text       start:0x80090F24 end:0x80091680
+	.data       start:0x8010AFA0 end:0x8010AFE0
+	.sdata      start:0x80139428 end:0x80139430
+	.sdata2     start:0x8013BDE0 end:0x8013BE08
+
+project/Pure3d/development/lib/libpng/pngtrans.c:
+	.text       start:0x80091680 end:0x800928AC
+	.data       start:0x8010AFE0 end:0x8010B2E0
+
+project/Pure3d/development/lib/zlib/adler32.c:
+	.text       start:0x800928AC end:0x80092BD8
+
+project/Pure3d/development/lib/zlib/crc32.c:
+	.text       start:0x80092BD8 end:0x80092D0C
+	.rodata     start:0x800F9800 end:0x800F9C00
+
+project/Pure3d/development/lib/zlib/infblock.c:
+	.text       start:0x80092D0C end:0x80093E3C
+	.rodata     start:0x800F9C00 end:0x800F9C50
+	.data       start:0x8010B2E0 end:0x8010B380
+
+project/Pure3d/development/lib/zlib/infcodes.c:
+	.text       start:0x80093E3C end:0x80094844
+	.data       start:0x8010B380 end:0x8010B3E0
+
+project/Pure3d/development/lib/zlib/inffast.c:
+	.text       start:0x80094844 end:0x80094DE4
+	.data       start:0x8010B3E0 end:0x8010B418
+
+project/Pure3d/development/lib/zlib/inflate.c:
+	.text       start:0x80094DE4 end:0x80095734
+	.data       start:0x8010B418 end:0x8010B4C0
+	.sdata      start:0x80139430 end:0x80139438
+
+project/Pure3d/development/lib/zlib/inftrees.c:
+	.text       start:0x80095734 end:0x80095F84
+	.rodata     start:0x800F9C50 end:0x800F9E68
+	.data       start:0x8010B4C0 end:0x8010C6B0
+	.sdata      start:0x80139438 end:0x80139440
+
+project/Pure3d/development/lib/zlib/infutil.c:
+	.text       start:0x80095F84 end:0x8009610C
+	.data       start:0x8010C6B0 end:0x8010C6F8
+
+project/Pure3d/development/lib/zlib/zutil.c:
+	.text       start:0x8009610C end:0x80096168
+
+project/Pure3d/development/lib/freetype/src/base/ftbase.c:
+	.text       start:0x80096168 end:0x8009958C
+	.rodata     start:0x800F9E68 end:0x800F9E90
+	.data       start:0x8010C6F8 end:0x8010C748
+
+project/Pure3d/development/lib/freetype/src/base/ftinit.c:
+	.text       start:0x8009958C end:0x80099614
+	.data       start:0x8010C748 end:0x8010C760
+
+project/Pure3d/development/lib/freetype/src/base/ftraster.c:
+	.text       start:0x80099614 end:0x8009BC70
+	.rodata     start:0x800F9E90 end:0x800F9EE0
+	.data       start:0x8010C760 end:0x8010C788
+
+project/Pure3d/development/lib/freetype/src/psnames/psnames.c:
+	.text       start:0x8009BC70 end:0x8009C108
+	.rodata     start:0x800F9EE0 end:0x800FA878
+	.data       start:0x8010C788 end:0x8010FA70
+	.sdata      start:0x80139440 end:0x80139F10
+
+project/Pure3d/development/lib/freetype/src/sfnt/sfnt.c:
+	.text       start:0x8009C108 end:0x8009F4F8
+	.rodata     start:0x800FA878 end:0x800FADC8
+	.data       start:0x8010FA70 end:0x8010FAA8
+	.sdata      start:0x80139F10 end:0x80139F18
+
+project/Pure3d/development/lib/freetype/src/truetype/truetype.c:
+	.text       start:0x8009F4F8 end:0x800A8800
+	.rodata     start:0x800FADC8 end:0x800FB0B0
+	.data       start:0x8010FAA8 end:0x8010FD18
+	.sdata      start:0x80139F18 end:0x80139F28
+	.sdata2     start:0x8013BE08 end:0x8013BE10
+
+project/Pure3d/development/lib/freetype/src/type1/type1.c:
+	.text       start:0x800A8800 end:0x800AF7AC
+	.rodata     start:0x800FB0B0 end:0x800FB318
+	.data       start:0x8010FD18 end:0x80110460
+	.sdata      start:0x80139F28 end:0x8013A008
+	.sdata2     start:0x8013BE10 end:0x8013BE28
+
+project/Pure3d/development/radmath/matrix.cpp:
+	.text       start:0x800AF7AC end:0x800B07EC
+	.data       start:0x80110460 end:0x801104A0
+	.sdata2     start:0x8013BE28 end:0x8013BE40
+
+project/Pure3d/development/radmath/quaternion.cpp:
+	.text       start:0x800B07EC end:0x800B0F8C
+	.sdata2     start:0x8013BE40 end:0x8013BE58
+
+project/Pure3d/development/radmath/random.cpp:
+	.text       start:0x800B0F8C end:0x800B1180
+	.sdata2     start:0x8013BE58 end:0x8013BE68
+
+project/Pure3d/development/radmath/trig.cpp:
+	.text       start:0x800B1180 end:0x800B1464
+	.sdata2     start:0x8013BE68 end:0x8013BE88
+
+project/Pure3d/development/radmath/vector.cpp:
+	.text       start:0x800B1464 end:0x800B17BC
+	.sdata2     start:0x8013BE88 end:0x8013BE98
+
+project/Pure3d/Development/pddi/gamecube/gccon.cpp:
+	.text       start:0x800B17BC end:0x800B4ADC
+	.ctors      start:0x800F8D50 end:0x800F8D54
+	.data       start:0x801104A0 end:0x80110A18
+	.bss        start:0x80133280 end:0x80133310
+	.sdata      start:0x8013A008 end:0x8013A048
+	.sdata2     start:0x8013BE98 end:0x8013BEF0
+
+project/Pure3d/development/pddi/gamecube/gcdev.cpp:
+	.text       start:0x800B4ADC end:0x800B4ED8
+	.ctors      start:0x800F8D54 end:0x800F8D58
+	.data       start:0x80110A18 end:0x80110B40
+	.bss        start:0x80133310 end:0x80133330
+	.sdata      start:0x8013A048 end:0x8013A078
+
+project/Pure3d/development/pddi/gamecube/gcdisplay.cpp:
+	.text       start:0x800B4ED8 end:0x800B5544
+	.data       start:0x80110B40 end:0x80110D00
+	.sdata      start:0x8013A078 end:0x8013A0A0
+	.sdata2     start:0x8013BEF0 end:0x8013BF08
+
+project/Pure3d/development/pddi/gamecube/gcskin.cpp:
+	.text       start:0x800B5544 end:0x800B76DC
+	.ctors      start:0x800F8D58 end:0x800F8D5C
+	.rodata     start:0x800FB318 end:0x800FB328
+	.data       start:0x80110D00 end:0x80110FF0
+	.bss        start:0x80133330 end:0x80133340
+	.sdata      start:0x8013A0A0 end:0x8013A0D8
+	.sbss       start:0x8013B2B8 end:0x8013B2D0
+	.sdata2     start:0x8013BF08 end:0x8013BF38
+
+project/Pure3d/Development/pddi/gamecube/gctev.cpp:
+	.text       start:0x800B76DC end:0x800B7880
+	.data       start:0x80110FF0 end:0x80111090
+
+project/Pure3d/development/pddi/gamecube/gctex.cpp:
+	.text       start:0x800B7880 end:0x800B8F14
+	.data       start:0x80111090 end:0x801111B8
+	.bss        start:0x80133340 end:0x80137340
+	.sdata      start:0x8013A0D8 end:0x8013A0F0
+	.sdata2     start:0x8013BF38 end:0x8013BF58
+
+project/Pure3d/development/pddi/gamecube/gcbufcopy.cpp:
+	.text       start:0x800B8F14 end:0x800B94DC
+	.data       start:0x801111B8 end:0x80111290
+	.sdata      start:0x8013A0F0 end:0x8013A118
+
+project/Pure3d/development/pddi/gamecube/simpleshader.cpp:
+	.text       start:0x800B94DC end:0x800BA0F8
+	.ctors      start:0x800F8D5C end:0x800F8D60
+	.data       start:0x80111290 end:0x801115F0
+	.sdata      start:0x8013A118 end:0x8013A148
+	.sdata2     start:0x8013BF58 end:0x8013BF60
+
+project/Pure3d/development/pddi/gamecube/shadowshader.cpp:
+	.text       start:0x800BA0F8 end:0x800BA5A4
+	.ctors      start:0x800F8D60 end:0x800F8D64
+	.data       start:0x801115F0 end:0x80111838
+	.sdata      start:0x8013A148 end:0x8013A188
+
+project/Pure3d/development/pddi/base/basecontext.cpp:
+	.text       start:0x800BA5A4 end:0x800BD37C
+	.ctors      start:0x800F8D64 end:0x800F8D68
+	.data       start:0x80111838 end:0x80112048
+	.bss        start:0x80137340 end:0x80137358
+	.sdata      start:0x8013A188 end:0x8013A218
+	.sbss       start:0x8013B2D0 end:0x8013B2D8
+	.sdata2     start:0x8013BF60 end:0x8013BF90
+
+project/Pure3d/development/pddi/base/basemath.cpp:
+	.text       start:0x800BD37C end:0x800BD8BC
+	.sdata2     start:0x8013BF90 end:0x8013BFB0
+
+project/Pure3d/development/pddi/base/baseshader.cpp:
+	.text       start:0x800BD8BC end:0x800BDDF4
+	.data       start:0x80112048 end:0x801125A0
+	.sdata      start:0x8013A218 end:0x8013A238
+	.sbss       start:0x8013B2D8 end:0x8013B2E8
+
+project/Pure3d/development/pddi/base/font.cpp:
+	.text       start:0x800BDDF4 end:0x800BE26C
+	.data       start:0x801125A0 end:0x80113150
+	.sdata      start:0x8013A238 end:0x8013A240
+	.sdata2     start:0x8013BFB0 end:0x8013BFC0
+
+project/Pure3d/development/pddi/base/pddiobj.cpp:
+	.text       start:0x800BE26C end:0x800BE340
+	.data       start:0x80113150 end:0x80113178
+	.sdata      start:0x8013A240 end:0x8013A248
+
+project/Pure3d/development/pddi/gamecube/mallocaligned.cpp:
+	.text       start:0x800BE340 end:0x800BE3C4
+
+project/Pure3d/Simulation/simai/collDisp.cpp:
+	.text       start:0x800BE3C4 end:0x800BEA58
+	.data       start:0x80113178 end:0x80113198
+	.sbss       start:0x8013B2E8 end:0x8013B2F0
+	.sdata2     start:0x8013BFC0 end:0x8013BFC8
+
+project/Pure3d/Simulation/simai/ikanlink.cpp:
+	.text       start:0x800BEA58 end:0x800BEBE8
+	.sdata2     start:0x8013BFC8 end:0x8013BFD0
+
+project/Pure3d/Simulation/simai/impulselink.cpp:
+	.text       start:0x800BEBE8 end:0x800BF948
+	.data       start:0x80113198 end:0x80113298
+	.sdata      start:0x8013A248 end:0x8013A280
+	.sbss       start:0x8013B2F0 end:0x8013B310
+	.sdata2     start:0x8013BFD0 end:0x8013C000
+
+project/Pure3d/Simulation/simai/simcollsolver.cpp:
+	.text       start:0x800BF948 end:0x800BFF10
+	.data       start:0x80113298 end:0x80113308
+	.sdata      start:0x8013A280 end:0x8013A298
+	.sdata2     start:0x8013C000 end:0x8013C010
+
+project/Pure3d/Simulation/simai/simflex.cpp:
+	.text       start:0x800BFF10 end:0x800C13D8
+	.ctors      start:0x800F8D68 end:0x800F8D6C
+	.data       start:0x80113308 end:0x80113490
+	.bss        start:0x80137358 end:0x80137370
+	.sdata      start:0x8013A298 end:0x8013A310
+	.sbss       start:0x8013B310 end:0x8013B320
+	.sdata2     start:0x8013C010 end:0x8013C028
+
+project/Pure3d/Simulation/simai/simflexjoint.cpp:
+	.text       start:0x800C13D8 end:0x800C5568
+	.data       start:0x80113490 end:0x801135A8
+	.sdata      start:0x8013A310 end:0x8013A368
+	.sbss       start:0x8013B320 end:0x8013B350
+	.sdata2     start:0x8013C028 end:0x8013C078
+
+project/Pure3d/Simulation/simai/simfloor.cpp:
+	.sdata2     start:0x8013C078 end:0x8013C080
+
+project/Pure3d/Simulation/simai/simgroup.cpp:
+	.text       start:0x800C5568 end:0x800C6B38
+	.data       start:0x801135A8 end:0x80113898
+	.bss        start:0x80137370 end:0x80137398
+	.sdata      start:0x8013A368 end:0x8013A3E8
+	.sbss       start:0x8013B350 end:0x8013B360
+	.sdata2     start:0x8013C080 end:0x8013C098
+
+project/Pure3d/Simulation/simai/siminterface.cpp:
+	.text       start:0x800C6B38 end:0x800C71E0
+	.ctors      start:0x800F8D6C end:0x800F8D74
+	.data       start:0x80113898 end:0x80113D70
+	.bss        start:0x80137398 end:0x801373C0
+	.sdata      start:0x8013A3E8 end:0x8013A490
+	.sbss       start:0x8013B360 end:0x8013B368
+	.sdata2     start:0x8013C098 end:0x8013C0A0
+
+project/Pure3d/Simulation/simai/simnode.cpp:
+	.text       start:0x800C71E0 end:0x800C7D9C
+	.data       start:0x80113D70 end:0x80113E48
+	.bss        start:0x801373C0 end:0x80137550
+	.sdata      start:0x8013A490 end:0x8013A4C0
+	.sbss       start:0x8013B368 end:0x8013B370
+	.sdata2     start:0x8013C0A0 end:0x8013C0B0
+
+project/Pure3d/Simulation/simai/simnodearticulated.cpp:
+	.text       start:0x800C7D9C end:0x800C8F74
+	.ctors      start:0x800F8D74 end:0x800F8D78
+	.data       start:0x80113E48 end:0x80114048
+	.bss        start:0x80137550 end:0x80137578
+	.sdata      start:0x8013A4C0 end:0x8013A538
+	.sbss       start:0x8013B370 end:0x8013B388
+	.sdata2     start:0x8013C0B0 end:0x8013C0D0
+
+project/Pure3d/Simulation/simai/simrest.cpp:
+	.text       start:0x800C8F74 end:0x800C94A0
+	.data       start:0x80114048 end:0x80114110
+	.sdata      start:0x8013A538 end:0x8013A598
+	.sbss       start:0x8013B388 end:0x8013B398
+	.sdata2     start:0x8013C0D0 end:0x8013C0D8
+
+project/Pure3d/Simulation/simai/simtarget.cpp:
+	.text       start:0x800C94A0 end:0x800C9720
+	.data       start:0x80114110 end:0x801141E8
+	.sdata      start:0x8013A598 end:0x8013A5B8
+
+project/Pure3d/Simulation/simai/trackerlink.cpp:
+	.text       start:0x800C9720 end:0x800CAB68
+	.data       start:0x801141E8 end:0x80114258
+	.sdata      start:0x8013A5B8 end:0x8013A5D8
+	.sbss       start:0x8013B398 end:0x8013B3A0
+	.sdata2     start:0x8013C0D8 end:0x8013C0F8
+
+project/Pure3d/Simulation/simai/vcm.cpp:
+	.text       start:0x800CAB68 end:0x800CAE80
+	.sdata      start:0x8013A5D8 end:0x8013A5F0
+	.sdata2     start:0x8013C0F8 end:0x8013C108
+
+project/Pure3d/Simulation/common/AccCount.cpp:
+	.text       start:0x800CAE80 end:0x800CAF34
+	.data       start:0x80114258 end:0x80114278
+	.sdata      start:0x8013A5F0 end:0x8013A5F8
+
+project/Pure3d/Simulation/common/arraymath.cpp:
+	.text       start:0x800CAF34 end:0x800CB84C
+	.sdata2     start:0x8013C108 end:0x8013C118
+
+project/Pure3d/Simulation/common/dline2.cpp:
+	.text       start:0x800CB84C end:0x800CC738
+	.ctors      start:0x800F8D78 end:0x800F8D7C
+	.bss        start:0x80137578 end:0x801375A0
+	.sdata      start:0x8013A5F8 end:0x8013A600
+	.sbss       start:0x8013B3A0 end:0x8013B3B0
+	.sdata2     start:0x8013C118 end:0x8013C128
+
+project/Pure3d/Simulation/common/Kalmann.cpp:
+	.text       start:0x800CC738 end:0x800CCDC0
+	.data       start:0x80114278 end:0x801143B8
+	.sdata      start:0x8013A600 end:0x8013A638
+	.sdata2     start:0x8013C128 end:0x8013C138
+
+project/Pure3d/Simulation/common/PhEnv.cpp:
+	.text       start:0x800CCDC0 end:0x800CD8D4
+	.data       start:0x801143B8 end:0x80114568
+	.sdata      start:0x8013A638 end:0x8013A6A8
+	.sbss       start:0x8013B3B0 end:0x8013B3B8
+	.sdata2     start:0x8013C138 end:0x8013C148
+
+project/Pure3d/Simulation/common/sbmatrix.cpp:
+	.text       start:0x800CD8D4 end:0x800CEBA0
+	.sbss       start:0x8013B3B8 end:0x8013B3C0
+	.sdata2     start:0x8013C148 end:0x8013C158
+
+project/Pure3d/Simulation/common/tlist.cpp:
+	.text       start:0x800CEBA0 end:0x800CF034
+	.data       start:0x80114568 end:0x80114580
+	.sdata      start:0x8013A6A8 end:0x8013A6B0
+
+project/Pure3d/Simulation/physics/PhBasics.cpp:
+	.text       start:0x800CF034 end:0x800CF68C
+	.sbss       start:0x8013B3C0 end:0x8013B3C8
+	.sdata2     start:0x8013C158 end:0x8013C178
+
+project/Pure3d/Simulation/physics/PhColl.cpp:
+	.text       start:0x800CF68C end:0x800D0038
+	.data       start:0x80114580 end:0x801145D0
+	.sdata      start:0x8013A6B0 end:0x8013A6C8
+	.sbss       start:0x8013B3C8 end:0x8013B3D0
+	.sdata2     start:0x8013C178 end:0x8013C180
+
+project/Pure3d/Simulation/physics/PhCollD.cpp:
+	.text       start:0x800D0038 end:0x800D2030
+	.data       start:0x801145D0 end:0x80114630
+	.sdata      start:0x8013A6C8 end:0x8013A6E0
+	.sbss       start:0x8013B3D0 end:0x8013B3D8
+	.sdata2     start:0x8013C180 end:0x8013C1A8
+
+project/Pure3d/Simulation/physics/PhCollDs.cpp:
+	.text       start:0x800D2030 end:0x800D98C0
+	.data       start:0x80114630 end:0x80114698
+	.sdata      start:0x8013A6E0 end:0x8013A708
+	.sbss       start:0x8013B3D8 end:0x8013B3E0
+	.sdata2     start:0x8013C1A8 end:0x8013C208
+
+project/Pure3d/Simulation/physics/PhCollEl.cpp:
+	.text       start:0x800D98C0 end:0x800DCCC8
+	.data       start:0x80114698 end:0x80114878
+	.sdata      start:0x8013A708 end:0x8013A760
+	.sdata2     start:0x8013C208 end:0x8013C260
+
+project/Pure3d/Simulation/physics/PhCollS.cpp:
+	.text       start:0x800DCCC8 end:0x800DDC68
+	.data       start:0x80114878 end:0x801148C0
+	.sdata      start:0x8013A760 end:0x8013A788
+	.sbss       start:0x8013B3E0 end:0x8013B3E8
+	.sdata2     start:0x8013C260 end:0x8013C278
+
+project/Pure3d/Simulation/physics/PhComposite.cpp:
+	.text       start:0x800DDC68 end:0x800DF050
+	.data       start:0x801148C0 end:0x80114B18
+	.sdata      start:0x8013A788 end:0x8013A7F8
+	.sdata2     start:0x8013C278 end:0x8013C280
+
+project/Pure3d/Simulation/physics/PhDOFData.cpp:
+	.text       start:0x800DF050 end:0x800E1584
+	.data       start:0x80114B18 end:0x80114CB0
+	.bss        start:0x801375A0 end:0x801375B0
+	.sdata      start:0x8013A7F8 end:0x8013A838
+	.sbss       start:0x8013B3E8 end:0x8013B400
+	.sdata2     start:0x8013C280 end:0x8013C2A8
+
+project/Pure3d/Simulation/physics/PhLoader.cpp:
+	.text       start:0x800E1584 end:0x800E3178
+	.data       start:0x80114CB0 end:0x801150F0
+	.sdata      start:0x8013A838 end:0x8013A910
+	.sbss       start:0x8013B400 end:0x8013B408
+	.sdata2     start:0x8013C2A8 end:0x8013C2D0
+
+project/Pure3d/Simulation/physics/PhLRgdBod.cpp:
+	.text       start:0x800E3178 end:0x800E3CCC
+	.data       start:0x801150F0 end:0x801152B0
+	.sdata      start:0x8013A910 end:0x8013A958
+	.sdata2     start:0x8013C2D0 end:0x8013C2D8
+
+project/Pure3d/Simulation/physics/PhMovObj.cpp:
+	.text       start:0x800E3CCC end:0x800E4F48
+	.data       start:0x801152B0 end:0x80115448
+	.sdata      start:0x8013A958 end:0x8013A9A8
+	.sbss       start:0x8013B408 end:0x8013B410
+	.sdata2     start:0x8013C2D8 end:0x8013C2E0
+
+project/Pure3d/Simulation/physics/PhObj.cpp:
+	.text       start:0x800E4F48 end:0x800E5908
+	.data       start:0x80115448 end:0x801156A0
+	.bss        start:0x801375B0 end:0x801375F0
+	.sdata      start:0x8013A9A8 end:0x8013A9F8
+	.sbss       start:0x8013B410 end:0x8013B418
+	.sdata2     start:0x8013C2E0 end:0x8013C308
+
+project/Pure3d/Simulation/physics/PhPartic.cpp:
+	.text       start:0x800E5908 end:0x800E655C
+	.data       start:0x801156A0 end:0x80115848
+	.sdata      start:0x8013A9F8 end:0x8013AA48
+	.sbss       start:0x8013B418 end:0x8013B438
+	.sdata2     start:0x8013C308 end:0x8013C320
+
+project/Pure3d/Simulation/physics/PhRgdBod.cpp:
+	.text       start:0x800E655C end:0x800E8148
+	.data       start:0x80115848 end:0x80115AB0
+	.sdata      start:0x8013AA48 end:0x8013AAD8
+	.sbss       start:0x8013B438 end:0x8013B448
+	.sdata2     start:0x8013C320 end:0x8013C348
+
+project/Pure3d/Simulation/physics/PhSStree.cpp:
+	.text       start:0x800E8148 end:0x800EBC20
+	.data       start:0x80115AB0 end:0x80115C80
+	.sdata      start:0x8013AAD8 end:0x8013AB70
+	.sbss       start:0x8013B448 end:0x8013B450
+	.sdata2     start:0x8013C348 end:0x8013C3A0
+
+project/Pure3d/Simulation/physics/PhState.cpp:
+	.text       start:0x800EBC20 end:0x800EBD04
+	.data       start:0x80115C80 end:0x80115CB8
+	.sdata      start:0x8013AB70 end:0x8013AB78
+	.sdata2     start:0x8013C3A0 end:0x8013C3A8
+
+project/Pure3d/Simulation/physics/PhSTree.cpp:
+	.text       start:0x800EBD04 end:0x800EE340
+	.data       start:0x80115CB8 end:0x80116060
+	.sdata      start:0x8013AB78 end:0x8013AC30
+	.sbss       start:0x8013B450 end:0x8013B458
+	.sdata2     start:0x8013C3A8 end:0x8013C3D8
+
+project/Pure3d/Simulation/physics/PhSymMat.cpp:
+	.text       start:0x800EE340 end:0x800EEB78
+	.data       start:0x80116060 end:0x80116078
+	.sdata      start:0x8013AC30 end:0x8013AC38
+	.sdata2     start:0x8013C3D8 end:0x8013C3E8
+
+project/Pure3d/Simulation/physics/PhWorld.cpp:
+	.text       start:0x800EEB78 end:0x800F0094
+	.data       start:0x80116078 end:0x80116240
+	.sdata      start:0x8013AC38 end:0x8013ACC0
+	.sbss       start:0x8013B458 end:0x8013B468
+	.sdata2     start:0x8013C3E8 end:0x8013C420
+
+project/Pure3d/Simulation/flexobj/condition.cpp:
+	.text       start:0x800F0094 end:0x800F0180
+	.data       start:0x80116240 end:0x80116268
+	.sdata      start:0x8013ACC0 end:0x8013ACC8
+
+project/Pure3d/Simulation/flexobj/condition1d.cpp:
+	.text       start:0x800F0180 end:0x800F1258
+	.data       start:0x80116268 end:0x80116320
+	.bss        start:0x801375F0 end:0x80137600
+	.sdata      start:0x8013ACC8 end:0x8013ACF8
+	.sbss       start:0x8013B468 end:0x8013B470
+	.sdata2     start:0x8013C420 end:0x8013C448
+
+project/Pure3d/Simulation/flexobj/condition2d.cpp:
+	.text       start:0x800F1258 end:0x800F29B4
+	.data       start:0x80116320 end:0x80116418
+	.bss        start:0x80137600 end:0x80137618
+	.sdata      start:0x8013ACF8 end:0x8013AD28
+	.sbss       start:0x8013B470 end:0x8013B478
+	.sdata2     start:0x8013C448 end:0x8013C460
+
+project/Pure3d/Simulation/flexobj/flexparticle.cpp:
+	.text       start:0x800F29B4 end:0x800F2D34
+	.rodata     start:0x800FB328 end:0x800FB340
+	.sdata2     start:0x8013C460 end:0x8013C468
+
+project/Pure3d/Simulation/flexobj/particlesyst.cpp:
+	.text       start:0x800F2D34 end:0x800F4ADC
+	.data       start:0x80116418 end:0x80116780
+	.sdata      start:0x8013AD28 end:0x8013ADF0
+	.sbss       start:0x8013B478 end:0x8013B4A0
+	.sdata2     start:0x8013C468 end:0x8013C4B8
+
+project/Pure3d/Simulation/flexobj/psystmanual.cpp:
+	.text       start:0x800F4ADC end:0x800F4DB4
+	.data       start:0x80116780 end:0x80116828
+	.sdata      start:0x8013ADF0 end:0x8013AE18
+	.sdata2     start:0x8013C4B8 end:0x8013C4C0
+
+project/Pure3d/Simulation/flexobj/psystongeom2d.cpp:
+	.text       start:0x800F4DB4 end:0x800F64BC
+	.data       start:0x80116828 end:0x80116A88
+	.sdata      start:0x8013AE18 end:0x8013AE78
+	.sbss       start:0x8013B4A0 end:0x8013B4A5
+	.sdata2     start:0x8013C4C0 end:0x8013C508
+
+project/Pure3d/Simulation/ikan/ikandriver.cpp:
+	.text       start:0x800F64BC end:0x800F7028
+	.ctors      start:0x800F8D7C end:0x800F8D80
+	.bss        start:0x80137618 end:0x8013763C
+	.sdata2     start:0x8013C508 end:0x8013C510
+
+project/Pure3d/Simulation/ikan/myvec.cpp:
+	.text       start:0x800F7028 end:0x800F7874
+	.data       start:0x80116A88 end:0x80116AC8
+	.sdata2     start:0x8013C510 end:0x8013C530
+
+project/Pure3d/Simulation/ikan/srs.cpp:
+	.text       start:0x800F7874 end:0x800F8A60
+	.sdata      start:0x8013AE78 end:0x8013AE7C
+	.sdata2     start:0x8013C530 end:0x8013C550
+
+project/Pure3d/Simulation/ikan/trig.cpp:
+	.text       start:0x800F8A60 end:0x800F8CF0
+	.sdata2     start:0x8013C550 end:0x8013C5A0
+
+project/PowerPC_EABI_Support/Runtime/Src/__mem.c:
+	.init       start:0x80005298 end:0x800053DC
