@@ -254,7 +254,7 @@ config.linker_version = "GC/1.1"
 def DolphinLib(lib_name: str, objects: List[Object]) -> Dict[str, Any]:
     return {
         "lib": lib_name,
-        "mw_version": "GC/1.2.5n",
+        "mw_version": "GC/1.1",
         "cflags": cflags_base,
         "progress_category": "sdk",
         "objects": objects,
@@ -295,6 +295,142 @@ config.libs = [
             Object(NonMatching, "Runtime.PPCEABI.H/__init_cpp_exceptions.cpp"),
         ],
     },
+    DolphinLib(
+        "base",
+        [
+            Object(NonMatching, "project/dolphin/libraries/base/src/PPCArch.c"),
+        ]
+    ),
+    DolphinLib(
+        "os",
+        [
+            Object(NonMatching, "project/dolphin/libraries/os/src/OS.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/OSAlarm.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/OSAlloc.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/OSArena.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/OSAudioSystem.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/OSCache.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/OSContext.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/OSError.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/OSExi.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/OSInterrupt.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/OSLink.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/OSMutex.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/OSReset.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/OSResetSW.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/OSRtc.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/OSSerial.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/OSSync.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/OSThread.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/OSTime.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/OSUartExi.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/init/__start.c"),
+            Object(NonMatching, "project/dolphin/libraries/os/src/init/__ppc_eabi_init.cpp"),
+        ]
+    ),
+    DolphinLib(
+        "ax",
+        [
+            Object(NonMatching, "project/dolphin/libraries/ax/src/AXAlloc.c"),
+            Object(NonMatching, "project/dolphin/libraries/ax/src/AX.c"),
+            Object(NonMatching, "project/dolphin/libraries/ax/src/AXAux.c"),
+            Object(NonMatching, "project/dolphin/libraries/ax/src/AXCL.c"),
+            Object(NonMatching, "project/dolphin/libraries/ax/src/AXOut.c"),
+            Object(NonMatching, "project/dolphin/libraries/ax/src/AXSPB.c"),
+            Object(NonMatching, "project/dolphin/libraries/ax/src/AXVPB.c"),
+            Object(NonMatching, "project/dolphin/libraries/ax/src/DSPCode.c"),
+            Object(NonMatching, "project/dolphin/libraries/ax/src/AXProf.c"),
+        ]
+    ),
+    DolphinLib(
+        "db",
+        [
+            Object(NonMatching, "project/dolphin/libraries/db/src/db.c"),
+        ]
+    ),
+    DolphinLib(
+        "mtx",
+        [
+            Object(NonMatching, "project/dolphin/libraries/mtx/src/mtx44.c"),
+        ]
+    ),
+    DolphinLib(
+        "dvd",
+        [
+            Object(NonMatching, "project/dolphin/libraries/dvd/src/dvdlow.c"),
+            Object(NonMatching, "project/dolphin/libraries/dvd/src/dvdfs.c"),
+            Object(NonMatching, "project/dolphin/libraries/dvd/src/dvd.c"),
+            Object(NonMatching, "project/dolphin/libraries/dvd/src/dvdqueue.c"),
+            Object(NonMatching, "project/dolphin/libraries/dvd/src/dvderror.c"),
+            Object(NonMatching, "project/dolphin/libraries/dvd/src/emu_level2/fstload.c"),
+        ]
+    ),
+    DolphinLib(
+        "vi",
+        [
+            Object(NonMatching, "project/dolphin/libraries/vi/src/vi.c"),
+        ]
+    ),
+    DolphinLib(
+        "pad",
+        [
+            Object(NonMatching, "project/dolphin/libraries/pad/src/Padclamp.c"),
+            Object(NonMatching, "project/dolphin/libraries/pad/src/Pad.c"),
+        ]
+    ),
+    DolphinLib(
+        "ai",
+        [
+            Object(NonMatching, "project/dolphin/libraries/ai/src/ai.c"),
+        ]
+    ),
+    DolphinLib(
+        "ar",
+        [
+            Object(NonMatching, "project/dolphin/libraries/ar/src/ar.c"),
+            Object(NonMatching, "project/dolphin/libraries/ar/src/arq.c"),
+        ]
+    ),
+    DolphinLib(
+        "dsp",
+        [
+            Object(NonMatching, "project/dolphin/libraries/dsp/src/dsp.c"),
+            Object(NonMatching, "project/dolphin/libraries/dsp/src/dsp_debug.c"),
+            Object(NonMatching, "project/dolphin/libraries/dsp/src/dsp_task.c"),
+        ]
+    ),
+    DolphinLib(
+        "gx",
+        [
+            Object(NonMatching, "project/dolphin/libraries/gx/src/GXInit.c"),
+            Object(NonMatching, "project/dolphin/libraries/gx/src/GXFrameBuf.c"),
+            Object(NonMatching, "project/dolphin/libraries/gx/src/GXFifo.c"),
+            Object(NonMatching, "project/dolphin/libraries/gx/src/GXAttr.c"),
+            Object(NonMatching, "project/dolphin/libraries/gx/src/GXMisc.c"),
+            Object(NonMatching, "project/dolphin/libraries/gx/src/GXGeometry.c"),
+            Object(NonMatching, "project/dolphin/libraries/gx/src/GXLight.c"),
+            Object(NonMatching, "project/dolphin/libraries/gx/src/GXTexture.c"),
+            Object(NonMatching, "project/dolphin/libraries/gx/src/GXBump.c"),
+            Object(NonMatching, "project/dolphin/libraries/gx/src/GXTev.c"),
+            Object(NonMatching, "project/dolphin/libraries/gx/src/GXPixel.c"),
+            Object(NonMatching, "project/dolphin/libraries/gx/src/GXStubs.c"),
+            Object(NonMatching, "project/dolphin/libraries/gx/src/GXDisplayList.c"),
+            Object(NonMatching, "project/dolphin/libraries/gx/src/GXTransform.c"),
+            Object(NonMatching, "project/dolphin/libraries/gx/src/GXPerf.c"),
+        ]
+    ),
+    DolphinLib(
+        "amcnotstub",
+        [
+            Object(NonMatching, "project/dolphin/libraries/amcnotstub/src/amcnotstub.c"),
+        ]
+    ),
+    DolphinLib(
+        "odemustubs",
+        [
+            Object(NonMatching, "project/dolphin/libraries/odemustubs/src/odemustubs.c"),
+        ]
+    ),
 ]
 
 
