@@ -657,7 +657,7 @@ project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common_Embedded/Math/Single_precision
 project/PowerPC_EABI_Support/Msl/MSL_C/MSL_Common_Embedded/Math/Single_precision/common_float_tables.c:
 	.data       start:0x800FFF60 end:0x801001B0
 
-project/PowerPC_EABI_Support/Msl/MSL_C/PPC_EABI/SRC/math_inlines.c:
+project/PowerPC_EABI_Support/Msl/MSL_C/PPC_EABI/Src/math_inlines.c:
 	.text       start:0x80035A78 end:0x80035B08
 	.sdata2     start:0x8013B910 end:0x8013B928
 
