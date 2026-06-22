@@ -67,14 +67,13 @@ When running under WSL, [objdiff](#diffing) is unable to get filesystem notifica
 - Copy your game's disc image to `orig/TESTNA`.
   - Supported formats: ISO (GCM), RVZ, WIA, WBFS, CISO, NFS, GCZ, TGC
   - After the initial build, the disc image can be deleted to save space.
+  - Alternatively, if you have physdemo.elf, you can convert it using dtk's elf2dol command to a .dol file. All that's really needed is `orig/TESTNA/sys/main.dol`.
 
 - Configure:
 
   ```sh
   python configure.py
   ```
-
-  To use a version other than `GAMEID` (USA), specify it with `--version`.
 
 - Build:
 
